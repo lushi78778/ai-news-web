@@ -55,23 +55,16 @@ GitHub Pages 只能服务静态文件，无法运行后端或直连 MySQL。
 
 ### 方案一：VPS 导出 + Actions 构建
 
-1. 在你的 VPS（有 MySQL 访问权限）上定时运行数据导出脚本：
+/VPS 上已配置自动导出推送（每天 6:00 / 14:00 / 22:00）：
 
 ```bash
-DB_PASSWORD=... node scripts/export-data.mjs
+# 一键手动触发
+/opt/scripts/news-export-push.sh
+# → 导出数据 → commit → push（重试 3 次）
 ```
 
-脚本会在 `frontend/public/data/` 下生成 `news-YYYY-MM-DD.json`、`dates.json`、`themes.json`、`latest.json`。
-
-2. 提交并推送 data 文件到 GitHub：
-
-```bash
-git add frontend/public/data/
-git commit -m "data: 更新新闻数据"
-git push
-```
-
-3. GitHub Actions 自动构建并部署到 Pages → `https://你的用户名.github.io/stock-news-web/news/`
+GitHub Actions 收到推送后自动构建并部署。
+访问地址：`https://你的用户名.github.io/stock-news-web/news/`
 
 ### 方案二：Actions 直连云数据库
 
