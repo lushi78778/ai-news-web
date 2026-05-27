@@ -68,21 +68,23 @@ function rateLimit(req, res) {
   const ip = getClientIp(req);
   const cutoff = now - WINDOW_MS;
   const hits = (requestLog.get(ip) || []).filter((ts) => ts > cutoff);
-  const remaining = Math.max(0, MAX_REQUESTS - hits.length);
-
-  res.setHeader('RateLimit-Limit', String(MAX_REQUESTS));
-  res.setHeader('RateLimit-Remaining', String(remaining));
-  res.setHeader('RateLimit-Reset', String(Math.ceil(WINDOW_MS / 1000)));
-  res.setHeader('RateLimit-Policy', `${MAX_REQUESTS};w=${Math.ceil(WINDOW_MS / 1000)}`);
 
   if (hits.length >= MAX_REQUESTS) {
     requestLog.set(ip, hits);
+    res.setHeader('RateLimit-Limit', String(MAX_REQUESTS));
+    res.setHeader('RateLimit-Remaining', '0');
+    res.setHeader('RateLimit-Reset', String(Math.ceil(WINDOW_MS / 1000)));
+    res.setHeader('RateLimit-Policy', `${MAX_REQUESTS};w=${Math.ceil(WINDOW_MS / 1000)}`);
     sendJson(res, 429, { success: false, error: 'Too many requests, please try again later' });
     return false;
   }
 
   hits.push(now);
   requestLog.set(ip, hits);
+  res.setHeader('RateLimit-Limit', String(MAX_REQUESTS));
+  res.setHeader('RateLimit-Remaining', String(Math.max(0, MAX_REQUESTS - hits.length)));
+  res.setHeader('RateLimit-Reset', String(Math.ceil(WINDOW_MS / 1000)));
+  res.setHeader('RateLimit-Policy', `${MAX_REQUESTS};w=${Math.ceil(WINDOW_MS / 1000)}`);
 
   if (requestLog.size > 10000) {
     for (const [key, values] of requestLog.entries()) {
