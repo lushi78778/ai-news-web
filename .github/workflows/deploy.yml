@@ -27,15 +27,16 @@ jobs:
 
       # 如果配置了 DB_PASSWORD，就从 MySQL 导出最新数据
       - name: Export data from MySQL
-        if: secrets.DB_PASSWORD != ''
+        if: env.DB_PASSWORD != ''
+        env:
+          DB_HOST: ${{ secrets.DB_HOST }}
+          DB_PORT: ${{ secrets.DB_PORT }}
+          DB_USER: ${{ secrets.DB_USER }}
+          DB_PASSWORD: ${{ secrets.DB_PASSWORD }}
+          DB_NAME: ${{ secrets.DB_NAME }}
         run: |
           cd scripts
           npm install mysql2
-          DB_HOST="${{ secrets.DB_HOST }}" \
-          DB_PORT="${{ secrets.DB_PORT }}" \
-          DB_USER="${{ secrets.DB_USER }}" \
-          DB_PASSWORD="${{ secrets.DB_PASSWORD }}" \
-          DB_NAME="${{ secrets.DB_NAME }}" \
           node export-data.mjs
         shell: bash
 
