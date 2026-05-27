@@ -6,7 +6,7 @@
 
 | Name | Value |
 | --- | --- |
-| `DB_HOST` | `ai.xray.top` |
+| `DB_HOST` | `124.174.91.206` |
 | `DB_PORT` | `10086` |
 | `DB_USER` | `gh_actions` |
 | `DB_PASSWORD` | 数据库密码 |
@@ -14,4 +14,20 @@
 
 4. Deploy
 
-部署后访问 Vercel 分配的域名即可，页面会通过 `/api/v2/news` 实时读取数据库。
+部署后访问：
+
+```text
+https://news.xray.top
+```
+
+页面会通过 `/api/v2/news` 实时读取数据库。
+
+项目的 `vercel.json` 已指定：
+
+```json
+{
+  "regions": ["hkg1"]
+}
+```
+
+API 函数会优先运行在香港区域。
