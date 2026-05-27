@@ -8,3 +8,4 @@ dist/
 
 # 脚本依赖
 scripts/node_modules/
+.vercel
