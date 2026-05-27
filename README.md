@@ -7,48 +7,36 @@
 ## 项目结构
 
 ```
-├── frontend/              # React + Vite SPA
+├── frontend/                  # React + Vite SPA
 │   ├── src/
-│   │   ├── App.jsx        # 主组件
-│   │   ├── config.js      # 数据源配置（API / 静态 JSON）
-│   │   └── main.jsx       # 入口
-│   ├── public/data/       # 导出的静态 JSON 数据
-│   ├── vite.config.js     # Vite 配置 (base: /news/)
-│   └── index.html
-├── backend/               # Node.js + Express API（本地/Docker 用）
+│   │   ├── App.jsx            # 主组件
+│   │   ├── config.js          # 数据源切换（API / 静态 JSON）
+│   │   └── main.jsx
+│   ├── public/data/           # 导出的静态 JSON 数据
+│   └── vite.config.js         # base: /news/
+├── backend/                   # Node.js + Express API
 │   ├── server.js
 │   └── package.json
 ├── scripts/
-│   ├── export-data.mjs    # MySQL → 静态 JSON 导出
-│   └── news-export-push.sh # VPS 自动导出推送脚本
+│   ├── export-data.mjs        # MySQL → 静态 JSON 导出
+│   └── news-export-push.sh    # VPS 自动导出推送
 ├── .github/workflows/
-│   └── deploy.yml         # GitHub Pages 部署流水线
-├── Dockerfile             # Docker 部署
+│   └── deploy.yml             # GitHub Pages 部署流水线
+├── docs/
+│   └── setup-guide.md         # 部署教程（Secrets 配置等）
+├── Dockerfile
 ├── nginx.conf
-├── start.sh
-└── .gitignore
+└── start.sh
 ```
 
 ## 部署
 
-### GitHub Pages（当前）
+详见 [docs/setup-guide.md](docs/setup-guide.md)
 
-数据预存在 `frontend/public/data/`，VPS 定时导出推送（每天 6:00 / 14:00 / 22:00），Actions 自动构建部署。
-
-### Docker 本地跑
+## 本地开发
 
 ```bash
-docker build -t news-frontend:latest .
-docker run -d --name news-app --restart unless-stopped --network host \
-  -e DB_HOST=127.0.0.1 -e DB_PORT=10086 \
-  -e DB_USER=stock_app -e DB_PASSWORD=your_password -e DB_NAME=stock \
-  news-frontend:latest
-```
-
-### 本地开发
-
-```bash
-cd frontend && npm install && npm run dev       # → :5173
+cd frontend && npm install && npm run dev       # http://localhost:5173/news/
 cd backend  && npm install && DB_PASSWORD=*** node server.js
 ```
 
@@ -62,22 +50,12 @@ cd backend  && npm install && DB_PASSWORD=*** node server.js
 | `DB_USER` | `root` | MySQL 用户 |
 | `DB_PASSWORD` | — | MySQL 密码 |
 | `DB_NAME` | `news` | 数据库名 |
-| `STATIC_DIR` | `/app/public` | 静态文件目录 |
 
 ## API
 
 | 路径 | 说明 |
 |------|------|
-| `GET /api/v2/news?date=YYYY-MM-DD` | 按日期获取信号事件 + 汇总 |
+| `GET /api/v2/news?date=YYYY-MM-DD` | 按日期获取信号 + 汇总 |
 | `GET /api/v2/news` | 最近 50 条 |
 | `GET /api/v2/themes` | 主题分类 + 历史日期 |
 | `GET /api/health` | 健康检查 |
-
-## 构建前端
-
-```bash
-cd frontend
-npm ci
-VITE_DATA_MODE=static npm run build
-# → 输出到 frontend/dist/
-```
