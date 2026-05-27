@@ -1,0 +1,91 @@
+{
+  "success": true,
+  "date": "2026-04-23",
+  "count": 5,
+  "summary": {
+    "total": 5,
+    "by_direction": {
+      "positive": 5
+    },
+    "by_theme": {
+      "SEMICONDUCTOR": 1,
+      "GOLD": 1,
+      "RARE_EARTH": 1,
+      "LITHIUM": 1,
+      "OIL_GAS": 1
+    },
+    "high_impact": 5
+  },
+  "data": [
+    {
+      "event_id": "CATALYST-2026-04-23-004",
+      "title": "台积电Q1净利润同比增长45% 上调2026年资本开支至450亿美元",
+      "summary": "【事实】台积电4月23日公布2026年第一季度财报，营收258亿美元同比增38%，净利润108亿美元同比增45%，均超市场预期。公司上调2026年全年资本开支至450亿美元（此前为400亿美元），其中75%投向3nm/2nm先进制程，15%投向先进封装。台积电预计2nm制程将于2026年底量产，AI芯片相关收入占比已达30%。【影响】台积电财报和资本开支上调确认AI驱动下先进制程需求长期强劲，利好国内半导体设备和材料产业链。先进封装产能持续扩张为CoWoS供应链提供增长动力。2nm制程推进将支撑未来2-3年高性能计算芯片迭代。【限制】2nm制程良率爬坡仍具不确定性。地缘政治风险使台积电海外建厂成本高企。中国客户收入占比持续下降，受制于出口管制。",
+      "direction": "positive",
+      "importance": 4,
+      "external_theme": "SEMICONDUCTOR",
+      "event_type": "earnings",
+      "source": "Bloomberg News",
+      "source_url": "https://www.bloomberg.com/asia",
+      "event_time_utc8": "2026-04-23T06:00:00.000Z",
+      "usable_trade_date": "2026-04-22T16:00:00.000Z",
+      "mentioned_tickers": "TSM,ASML,AMAT,LRCX,002371.SZ,300604.SZ,688012.SH"
+    },
+    {
+      "event_id": "CATALYST-2026-04-23-002",
+      "title": "中国央行与多国央行推进黄金储备互换协议 去美元化深化",
+      "summary": "【事实】4月23日，中国人民银行宣布与沙特央行、巴西央行签署黄金储备互换协议，三国央行可在约定额度内以黄金作为抵押进行本币流动性互换。此举旨在降低对美元储备依赖、促进人民币国际化。此前中国已与俄罗斯、南非等金砖国家签署类似协议。【影响】黄金储备互换协议提升了黄金作为国际储备资产的地位，增加了全球央行黄金需求的结构性支撑。人民币国际化进程中，黄金作为信用锚定的作用增强。中国推动多边黄金互换有助于构建新的国际货币合作框架。【限制】黄金互换协议目前规模有限，对全球黄金供需格局的实质性影响尚需时日。互换机制设计和执行细节有待完善。",
+      "direction": "positive",
+      "importance": 4,
+      "external_theme": "GOLD",
+      "event_type": "policy",
+      "source": "财联社 (Xinhua)",
+      "source_url": "https://www.xinhuanet.com/fortune/",
+      "event_time_utc8": "2026-04-23T02:00:00.000Z",
+      "usable_trade_date": "2026-04-22T16:00:00.000Z",
+      "mentioned_tickers": "GOLD,600489.SH,600547.SH"
+    },
+    {
+      "event_id": "CATALYST-2026-04-23-005",
+      "title": "中国稀土集团与特斯拉签订长期磁材供应协议 锁定海外大客户",
+      "summary": "【事实】4月23日，中国稀土集团宣布与特斯拉签订长期钕铁硼永磁材料供应协议，协议期5年，覆盖特斯拉未来车型驱动电机和Optimus人形机器人所需的高性能钕铁硼磁材。这是中国稀土企业首次与国际车企签订长期直供协议，标志着中国稀土深加工产品获得全球头部企业认可。【影响】长期供应协议锁定全球顶级客户需求，利好国内稀土磁材企业出口规模和盈利稳定性。特斯拉的背书有助于推动更多海外车企与中国钕铁硼企业建立直接合作。高性能磁材作为人形机器人核心部件的需求前景明朗。【限制】协议具体条款（价格、数量）未公开，盈利弹性存不确定。海外车企推进稀土供应的多元化策略仍在进行。",
+      "direction": "positive",
+      "importance": 3,
+      "external_theme": "RARE_EARTH",
+      "event_type": "demand",
+      "source": "财联社 (Xinhua)",
+      "source_url": "https://www.xinhuanet.com/fortune/",
+      "event_time_utc8": "2026-04-23T08:00:00.000Z",
+      "usable_trade_date": "2026-04-22T16:00:00.000Z",
+      "mentioned_tickers": "600010.SH,000831.SZ,300748.SZ,600366.SH,TSLA"
+    },
+    {
+      "event_id": "CATALYST-2026-04-23-003",
+      "title": "中国3月新能源汽车销量同比增长38% 渗透率突破55%",
+      "summary": "【事实】中国汽车工业协会4月23日发布数据，3月国内新能源汽车销量达102万辆，同比增长38%，月度渗透率首次突破55%达55.8%。一季度累计销量268万辆，同比增长35%。其中纯电车型占比62%，插混车型占比38%。比亚迪以36.8万辆月销继续领跑，小米SU7交付量突破3万辆。【影响】新能源车渗透率突破55%标志燃油车加速退出，锂电池需求持续旺盛。按单车50kWh电池计算，一季度新能源车拉动锂需求约13万吨LCE。储能领域招标量同比增长45%，为锂需求提供第二增长曲线。【限制】新能源汽车行业产能利用率分化明显，部分中小车企承压。上游碳酸锂价格反弹可能抬高电池成本，车企盈利能力面临挑战。欧盟对中国电动车加征关税影响出口增速。",
+      "direction": "positive",
+      "importance": 3,
+      "external_theme": "LITHIUM",
+      "event_type": "demand",
+      "source": "财联社",
+      "source_url": "https://finance.sina.com.cn/stock/",
+      "event_time_utc8": "2026-04-23T03:30:00.000Z",
+      "usable_trade_date": "2026-04-22T16:00:00.000Z",
+      "mentioned_tickers": "BYDDF,TSLA,NIO,XPEV,LI,002594.SZ,601127.SH,000625.SZ"
+    },
+    {
+      "event_id": "CATALYST-2026-04-23-001",
+      "title": "美国EIA原油库存超预期下降650万桶 汽油需求进入旺季",
+      "summary": "【事实】美国能源信息署（EIA）4月23日发布周度数据显示，截至4月17日当周美国商业原油库存减少650万桶至4.12亿桶，降幅远超市场预期的180万桶。汽油库存也下降210万桶，隐含汽油需求升至920万桶/日，显示夏季驾车旺季提前启动。库欣地区原油库存降至2800万桶的近年低位。【影响】EIA库存大降叠加需求旺季开启为油价提供强支撑，原油加工量提升利好炼油毛利。美国战略石油储备（SPR）补库需求也为油价提供底部支撑。中国炼厂原油采购需求有望进一步释放。【限制】EIA数据为滞后指标且存在周度波动。美国产量仍处高位约1320万桶/日，OPEC+后续产量决定仍是关键变量。",
+      "direction": "positive",
+      "importance": 3,
+      "external_theme": "OIL_GAS",
+      "event_type": "supply",
+      "source": "OilPrice (IEA)",
+      "source_url": "https://www.eia.gov/petroleum/supply/weekly/",
+      "event_time_utc8": "2026-04-23T00:00:00.000Z",
+      "usable_trade_date": "2026-04-22T16:00:00.000Z",
+      "mentioned_tickers": "XOM,CVX,COP,PSX,600028.SH,600346.SH"
+    }
+  ]
+}

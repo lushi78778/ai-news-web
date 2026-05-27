@@ -1,0 +1,105 @@
+{
+  "success": true,
+  "date": "2026-04-15",
+  "count": 6,
+  "summary": {
+    "total": 6,
+    "by_direction": {
+      "positive": 6
+    },
+    "by_theme": {
+      "HBM_MEMORY": 1,
+      "SEMICONDUCTOR": 2,
+      "GOLD": 1,
+      "COPPER": 1,
+      "RARE_EARTH": 1
+    },
+    "high_impact": 6
+  },
+  "data": [
+    {
+      "event_id": "CATALYST-2026-04-15-005",
+      "title": "JSR在中国台湾新竹设立平坦化工艺研究中心 服务先进封装和HBM制造",
+      "summary": "【事实】日本JSR在中国台湾新竹设立了平坦化工艺解决方案研究中心，聚焦CMP（化学机械平坦化）工艺研发，服务于先进封装和HBM制造需求。HBM层数增加对平坦化工艺的要求大幅提升。【影响】JSR在台设立研究中心表明先进封装和HBM制造对材料工艺的需求日益精密化，利好CMP材料和设备产业链。HBM高多层堆叠对CMP工艺的技术要求持续提升，带动高端研磨液和抛光垫的需求增长。【限制】研究中心为研发性质，短期对营收贡献有限。CMP材料市场竞争格局相对稳定，新进入者面临客户认证壁垒。",
+      "direction": "positive",
+      "importance": 4,
+      "external_theme": "HBM_MEMORY",
+      "event_type": "investment",
+      "source": "JSR, SemiEngineering",
+      "source_url": "https://www.jsr.co.jp/jsr_e/news/2026/20260415.html",
+      "event_time_utc8": "2026-04-15T07:00:00.000Z",
+      "usable_trade_date": "2026-04-14T16:00:00.000Z",
+      "mentioned_tickers": "000660.KS,MU,SMSN,AMAT"
+    },
+    {
+      "event_id": "CATALYST-2026-04-15-002",
+      "title": "Rebellions联合SK Telecom和Arm开发AI服务器 结合Arm AGI CPU和Rebellions AI芯片",
+      "summary": "【事实】韩国AI芯片创企Rebellions与SK Telecom、Arm达成三方合作，共同开发AI服务器方案，将Arm AGI CPU与Rebellions的AI推理芯片结合，面向主权AI和电信基础设施。【影响】三国联合开发体现主权AI趋势下各国加速构建自主AI计算能力的发展方向。Arm进入AI服务器CPU领域与Rebellions的AI加速器搭配，有望形成差异化竞争力。【限制】Rebellions芯片在实际部署中的性能和生态成熟度尚需验证。与Nvidia及AMD等市场领导者之间的竞争十分激烈。",
+      "direction": "positive",
+      "importance": 4,
+      "external_theme": "SEMICONDUCTOR",
+      "event_type": "partnership",
+      "source": "SemiEngineering, Rebellions",
+      "source_url": "https://rebellions.ai/newsroom/rebellions-collaborates-with-sk-telecom-and-arm-targeting-sovereign-ai-and-telecom-infrastructure/",
+      "event_time_utc8": "2026-04-15T02:00:00.000Z",
+      "usable_trade_date": "2026-04-14T16:00:00.000Z",
+      "mentioned_tickers": "ARM,SMSN,SKM"
+    },
+    {
+      "event_id": "CATALYST-2026-04-15-001",
+      "title": "Stanford AI指数报告警告AI能源消耗安全性和劳动力冲击问题 黄金避险逻辑强化",
+      "summary": "【事实】Stanford 2026年AI指数报告发布，警告AI快速进步正带来广泛现实影响——AI能力与应对准备之间鸿沟扩大，能源消耗、安全问题和劳动力冲击担忧加剧。报告引发市场对AI宏观风险重新评估，推动避险资产关注度提升。【影响】AI发展带来的能源安全、网络安全和就业替代担忧可能推动避险资金流向黄金等安全资产。AI能源消耗问题也将推动节能技术和新能源领域投资。【限制】Stanford报告更多是中长期警示，短期对金价影响有限。AI技术进步对劳动生产率的提升可部分抵消负面效应。",
+      "direction": "positive",
+      "importance": 4,
+      "external_theme": "GOLD",
+      "event_type": "price",
+      "source": "Stanford HAI, SemiEngineering",
+      "source_url": "https://hai.stanford.edu/ai-index/2026-ai-index-report",
+      "event_time_utc8": "2026-04-15T00:00:00.000Z",
+      "usable_trade_date": "2026-04-14T16:00:00.000Z",
+      "mentioned_tickers": "NEM,GOLD,600489.SH"
+    },
+    {
+      "event_id": "CATALYST-2026-04-15-006",
+      "title": "中国国家电网2026年电网投资计划上调 铜线缆和变压器需求持续旺盛",
+      "summary": "【事实】据中国国家电网消息，2026年电网投资计划进一步上调，重点投向特高压、配电网升级和新能源并网设施。电网大规模投资拉动铜线缆和变压器等电力设备需求持续旺盛，AI数据中心配套电力基础设施建设也贡献增量。【影响】电网投资加码为铜需求提供基本盘支撑，电力用铜（线缆+变压器）占铜消费总量的比重进一步提升。利好铜加工企业和电力设备制造商。【限制】电网投资为计划性支出，实际执行进度可能受地方财政影响。铜价高位可能影响下游采购意愿和工程项目成本控制。",
+      "direction": "positive",
+      "importance": 3,
+      "external_theme": "COPPER",
+      "event_type": "demand",
+      "source": "中国国家电网",
+      "source_url": "https://www.sgcc.com.cn/",
+      "event_time_utc8": "2026-04-15T08:00:00.000Z",
+      "usable_trade_date": "2026-04-14T16:00:00.000Z",
+      "mentioned_tickers": "600028.SH,600089.SH,603993.SH"
+    },
+    {
+      "event_id": "CATALYST-2026-04-15-004",
+      "title": "中国商务部回应外媒关于稀土出口管制的关切 重申遵守WTO规则保障全球供应链稳定",
+      "summary": "【事实】中国商务部发言人回应外媒关于稀土出口管制的提问时表示，中国作为负责任大国，始终坚持在遵守WTO规则基础上实施稀土出口管理，目的是维护国家资源安全和生态环境，并非针对任何国家或行业。中国将继续保障全球稀土供应链的稳定运行。【影响】中国官方表态有助于缓解国际市场对中国稀土供应的担忧情绪。稳定的政策预期有利于稀土行业的长期健康发展。【限制】外媒对中国稀土政策的报道存在片面解读，实际执行层面不会出现突然的重大政策转向。中国在稀土领域的合规管理并不改变其作为全球最大稀土供应国的地位。",
+      "direction": "positive",
+      "importance": 3,
+      "external_theme": "RARE_EARTH",
+      "event_type": "policy",
+      "source": "中国商务部",
+      "source_url": "https://www.mofcom.gov.cn/",
+      "event_time_utc8": "2026-04-15T06:00:00.000Z",
+      "usable_trade_date": "2026-04-14T16:00:00.000Z",
+      "mentioned_tickers": "600010.SH,600392.SH,000970.SZ"
+    },
+    {
+      "event_id": "CATALYST-2026-04-15-003",
+      "title": "Camtek收购以色列Visual Layer 增强AI视觉检测能力适应先进封装需求",
+      "summary": "【事实】半导体检测量测设备商Camtek宣布收购以色列AI视觉分析公司Visual Layer，旨在增强其检测和量测方案的AI视觉分析能力。先进封装对检测精度的要求不断提升，AI驱动的视觉检测成为差异化竞争力。【影响】检测环节AI化升级将提高芯片良率检测效率和精确度，尤其对HBM和先进封装检测环节意义重大。Camtek收购视觉AI能力表明检测设备行业正向智能化方向转型。【限制】收购金额未披露，小规模收购对Camtek整体业务影响有限。AI视觉检测能否在产线批量实际部署中达到宣称的准确率需验证。",
+      "direction": "positive",
+      "importance": 3,
+      "external_theme": "SEMICONDUCTOR",
+      "event_type": "product",
+      "source": "Camtek, SemiEngineering",
+      "source_url": "https://www.camtek.com/news-and-events/camtek-announces-acquisition-of-visual-layer-to-deepen-its-visual-ai-capabilities-in-its-inspection-and-metrology-offering/",
+      "event_time_utc8": "2026-04-15T03:00:00.000Z",
+      "usable_trade_date": "2026-04-14T16:00:00.000Z",
+      "mentioned_tickers": "CAMT,AMAT,KLAC"
+    }
+  ]
+}

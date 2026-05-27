@@ -1,0 +1,92 @@
+{
+  "success": true,
+  "date": "2026-05-11",
+  "count": 5,
+  "summary": {
+    "total": 5,
+    "by_direction": {
+      "positive": 4,
+      "neutral": 1
+    },
+    "by_theme": {
+      "AI_HARDWARE": 1,
+      "OIL_GAS": 1,
+      "GOLD": 1,
+      "RARE_EARTH": 1,
+      "COPPER": 1
+    },
+    "high_impact": 5
+  },
+  "data": [
+    {
+      "event_id": "CATALYST-2026-05-11-005",
+      "title": "字节跳动和腾讯追加2026年AI服务器订单 总量超30万台",
+      "summary": "【事实】5月11日产业链消息，字节跳动和腾讯分别向代工厂追加了2026年下半年AI服务器订单，两家合计追加约30万台GPU服务器（折合约75万片GPU）。字节跳动新增20万台（主要搭载英伟达B200），腾讯新增10万台（英伟达B200和部分华为昇腾910C混合配置）。两大互联网巨头的大模型产品（抖音/豆包大模型和腾讯混元大模型）用户量快速增长是订单追加的主要驱动力。【影响】中国互联网巨头大规模追加AI算力投资，确认国内AI应用进入爆发期。AI服务器需求旺盛利好全产业链：服务器代工、光模块、高速PCB、液冷散热。国产AI芯片（华为昇腾）在腾讯订单中的导入表明国产替代在加速推进。【限制】GPU交付进度受限于英伟达产能分配和出口管制政策。数据中心电力基础设施是否能支撑如此大规模算力扩张存不确定性。AI投资回报周期较长，若用户增长不及预期可能影响后续资本开支节奏。",
+      "direction": "positive",
+      "importance": 5,
+      "external_theme": "AI_HARDWARE",
+      "event_type": "order",
+      "source": "TrendForce",
+      "source_url": "https://www.trendforce.com/news/",
+      "event_time_utc8": "2026-05-11T07:00:00.000Z",
+      "usable_trade_date": "2026-05-10T16:00:00.000Z",
+      "mentioned_tickers": "NVDA,AMD,000063.SZ,300502.SZ,300308.SZ,688041.SH,002049.SZ"
+    },
+    {
+      "event_id": "CATALYST-2026-05-11-002",
+      "title": "布伦特原油重回88美元 地缘风险溢价和中美关税冲击需求担忧并存",
+      "summary": "【事实】5月11日布伦特原油上涨至88美元/桶，逼近4月高点。原油市场在双重力量博弈中：一是全球贸易冲突升级引发的经济增长放缓预期和需求担忧；二是霍尔木兹海峡地缘紧张局势升级带来的供给风险溢价。消息称伊朗在波斯湾举行大规模军事演习，加剧原油运输通道安全担忧。【影响】地缘政治风险溢价支撑油价高位运行，但需求端隐忧制约涨幅。中国原油进口成本上升增加国内炼化企业成本压力，但石油战略储备建设需求拉动进口量。高油价对新能源替代效应增强，利好光伏、风电等清洁能源。【限制】油价高位可能促使美国施压沙特增产。全球经济增长下行风险若持续发酵，最终将抑制原油需求。",
+      "direction": "positive",
+      "importance": 4,
+      "external_theme": "OIL_GAS",
+      "event_type": "price",
+      "source": "OilPrice (Reuters)",
+      "source_url": "https://www.reuters.com/business/energy/",
+      "event_time_utc8": "2026-05-11T02:00:00.000Z",
+      "usable_trade_date": "2026-05-10T16:00:00.000Z",
+      "mentioned_tickers": "XOM,CVX,CNOOC,601857.SH,600028.SH,600346.SH"
+    },
+    {
+      "event_id": "CATALYST-2026-05-11-001",
+      "title": "现货黄金突破3550美元再创新高 全球贸易冲突升级至新阶段",
+      "summary": "【事实】5月11日亚洲早盘，现货黄金突破3550美元/盎司，再创历史新高。驱动因素包括：中美贸易谈判在华盛顿举行的第九轮技术磋商未达成协议，美方宣布将对另外3000亿美元中国商品加征10%关税，中美贸易冲突升级至新阶段。全球股市普跌，避险资金加速流入黄金市场。【影响】中美贸易冲突升级加剧全球经济和金融市场不确定性，黄金避险属性凸显。中国央行持有的大量黄金储备在人民币汇率承压期间发挥稳定作用。黄金矿企和ETF在中美博弈加剧背景下配置价值提升。【限制】中美贸易谈判存在突然逆转可能，将引发金价剧烈回调。金价短期涨幅过快，技术指标严重超买。COMEX调高保证金可能抑制投机买盘。",
+      "direction": "positive",
+      "importance": 4,
+      "external_theme": "GOLD",
+      "event_type": "price",
+      "source": "Reuters",
+      "source_url": "https://www.reuters.com/markets/commodities/gold/",
+      "event_time_utc8": "2026-05-11T00:30:00.000Z",
+      "usable_trade_date": "2026-05-10T16:00:00.000Z",
+      "mentioned_tickers": "GOLD,600489.SH,600547.SH,002155.SZ,600988.SH,601899.SH"
+    },
+    {
+      "event_id": "CATALYST-2026-05-11-004",
+      "title": "缅甸稀土进口恢复低于预期 氧化镝铽持续走高",
+      "summary": "【事实】5月11日中国口岸消息，缅甸稀土矿进口虽已部分恢复，但日通关量仅为正常水平的40%，远低于市场预期的全面恢复。缅甸军方加强检查导致通关效率下降，叠加部分矿区因雨季到来开采量自然减少。氧化镝价格进一步涨至315万元/吨，较月初再涨10%。【影响】稀土供给恢复不及预期意味着中重稀土供需偏紧格局将持续更长时间，镝铽价格仍有上行空间。拥有充足中重稀土库存的企业大幅受益。钕铁硼磁材企业成本持续上升，需关注终端客户的涨价接受度。【限制】随着雨季过后和通关效率提升，稀土供给将逐步恢复常态。中国稀土集团可能释放部分库存平抑价格。过高稀土价格将刺激海外稀土矿项目加速。",
+      "direction": "positive",
+      "importance": 3,
+      "external_theme": "RARE_EARTH",
+      "event_type": "price",
+      "source": "MINING.COM",
+      "source_url": "https://www.mining.com/category/rare-earth/",
+      "event_time_utc8": "2026-05-11T05:30:00.000Z",
+      "usable_trade_date": "2026-05-10T16:00:00.000Z",
+      "mentioned_tickers": "000831.SZ,600259.SH,300748.SZ,600366.SH,000970.SZ"
+    },
+    {
+      "event_id": "CATALYST-2026-05-11-003",
+      "title": "LME铜价高位震荡 智利铜矿劳资谈判影响供应前景",
+      "summary": "【事实】5月11日LME铜价在10600美元附近高位震荡。铜市场关注点转向智利其他铜矿的劳资谈判：Codelco旗下El Teniente矿工会在政府调解下开始薪资谈判，必和必拓旗下Spence矿和Escondida矿的合同续约也在进行中。同时刚果（金）因地区冲突导致部分铜运输线路受阻。【影响】铜市场多空因素交织：供给端潜在扰动支持铜价，但高铜价开始抑制部分下游补库需求，现货贴水有所扩大。全球能源转型和AI基建的铜长期需求逻辑未变，铜价回调空间有限。【限制】劳资谈判整体走向和解的概率较大。中国作为最大消费国的需求若随经济放缓而减弱，可能抑制铜价上涨空间。LME仓库注册仓单小幅回升缓解近月交割压力。",
+      "direction": "neutral",
+      "importance": 3,
+      "external_theme": "COPPER",
+      "event_type": "price",
+      "source": "MINING.COM",
+      "source_url": "https://www.mining.com/category/copper/",
+      "event_time_utc8": "2026-05-11T03:00:00.000Z",
+      "usable_trade_date": "2026-05-10T16:00:00.000Z",
+      "mentioned_tickers": "FCX,BHP,SCCO,000630.SZ,600362.SH,601899.SH"
+    }
+  ]
+}

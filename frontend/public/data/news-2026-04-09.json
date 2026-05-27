@@ -1,0 +1,119 @@
+{
+  "success": true,
+  "date": "2026-04-09",
+  "count": 7,
+  "summary": {
+    "total": 7,
+    "by_direction": {
+      "positive": 7
+    },
+    "by_theme": {
+      "AI_HARDWARE": 1,
+      "SEMICONDUCTOR": 3,
+      "OIL_GAS": 1,
+      "LITHIUM": 1,
+      "RARE_EARTH": 1
+    },
+    "high_impact": 7
+  },
+  "data": [
+    {
+      "event_id": "CATALYST-2026-04-09-005",
+      "title": "Meta发布Muse Spark多模态推理模型 支持工具调用和视觉思维链",
+      "summary": "【事实】Meta发布原生多模态推理模型Muse Spark（前身为Spark MSL），支持工具调用、视觉思维链和多智能体协作。该模型可在复杂推理任务中整合视觉和语言信息。【影响】Meta开源多模态模型的推出将加速AI应用从纯文本向多模态演进，推动AI Agent能力边界扩展。利好AI应用层创新和多模态数据处理需求。【限制】Meta模型开源后竞争格局变化需观察，与GPT/Claude等商业模型相比在部分能力上可能仍有差距。模型实际推理效率和应用场景适配度待验证。",
+      "direction": "positive",
+      "importance": 4,
+      "external_theme": "AI_HARDWARE",
+      "event_type": "product",
+      "source": "Meta AI Blog, SemiEngineering",
+      "source_url": "https://ai.meta.com/blog/introducing-muse-spark-msl/",
+      "event_time_utc8": "2026-04-09T06:00:00.000Z",
+      "usable_trade_date": "2026-04-08T16:00:00.000Z",
+      "mentioned_tickers": "META,MSFT,GOOGL"
+    },
+    {
+      "event_id": "CATALYST-2026-04-09-004",
+      "title": "三星将在越南投资40亿美元建设先进封装设施 布局东南亚制造",
+      "summary": "【事实】据Bloomberg报道，三星宣布将在越南投资40亿美元建设半导体封装设施，这是三星在东南亚最大的半导体投资。此举旨在分散制造地理集中度，强化供应链韧性。【影响】三星越南封测投资将带动当地半导体产业链发展，利好越南设备和材料需求。封装产能分散化趋势有助于降低地缘政治风险集中度，对全球半导体供应链韧性有益。【限制】封装厂建设周期需2-3年，短期对三星盈利影响有限。越南基础设施和人才供给能否支撑先进封装运营存在不确定性。",
+      "direction": "positive",
+      "importance": 4,
+      "external_theme": "SEMICONDUCTOR",
+      "event_type": "capacity",
+      "source": "Bloomberg, SemiEngineering",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-04-09/samsung-to-invest-4-billion-in-chip-packaging-site-in-vietnam",
+      "event_time_utc8": "2026-04-09T03:00:00.000Z",
+      "usable_trade_date": "2026-04-08T16:00:00.000Z",
+      "mentioned_tickers": "SMSN,AMAT"
+    },
+    {
+      "event_id": "CATALYST-2026-04-09-003",
+      "title": "SK海力士投资巴塞罗那Semidynamics 布局以内存为中心的AI推理芯片",
+      "summary": "【事实】SK hynix向巴塞罗那的AI芯片设计公司Semidynamics进行未披露金额的投资，旨在推进以内存为中心的AI推理芯片开发，突破AI计算的\"内存墙\"瓶颈。【影响】SK海力士从内存向AI芯片领域拓展，体现存储器厂商向计算集成方向推进的趋势。HBM厂商向上游AI计算芯片领域整合，有利于构建更紧密的AI计算生态。【限制】投资金额未披露，对SK海力士整体战略影响有限。Semidynamics AI芯片与大厂（Nvidia/AMD）竞争力待验证。",
+      "direction": "positive",
+      "importance": 4,
+      "external_theme": "SEMICONDUCTOR",
+      "event_type": "partnership",
+      "source": "SemiEngineering, Semidynamics",
+      "source_url": "https://semidynamics.com/newsroom/press-releases",
+      "event_time_utc8": "2026-04-09T02:00:00.000Z",
+      "usable_trade_date": "2026-04-08T16:00:00.000Z",
+      "mentioned_tickers": "000660.KS,STMP"
+    },
+    {
+      "event_id": "CATALYST-2026-04-09-002",
+      "title": "SiFive融资4亿美元加速RISC-V数据中心解决方案 挑战Arm/x86生态",
+      "summary": "【事实】SiFive宣布完成4亿美元融资，加速高性能RISC-V数据中心解决方案开发。RISC-V架构在数据中心领域的应用获得重要资本支持，有望打破x86和Arm在服务器CPU市场的双头垄断格局。【影响】4亿美元融资确认RISC-V在数据中心场景的商业化前景，对RISC-V产业生态构成重大利好。SiFive的高性能CPU核有望进入AI服务器市场，长期可能改变数据中心CPU格局。【限制】RISC-V在数据中心的应用仍处早期，软件生态成熟度远不及x86和Arm。SiFive需持续投入才能在高性能CPU市场与大厂竞争。",
+      "direction": "positive",
+      "importance": 4,
+      "external_theme": "SEMICONDUCTOR",
+      "event_type": "product",
+      "source": "SemiEngineering, SiFive",
+      "source_url": "https://www.sifive.com/press/sifive-raises-400-million-to-accelerate-high-performance-risc-v-data-center-solutions",
+      "event_time_utc8": "2026-04-09T01:00:00.000Z",
+      "usable_trade_date": "2026-04-08T16:00:00.000Z",
+      "mentioned_tickers": "SIF,ARM,INTC"
+    },
+    {
+      "event_id": "CATALYST-2026-04-09-001",
+      "title": "据外媒报道OpenAI因监管和高成本暂停英国数据中心项目 AI算力布局受能源制约",
+      "summary": "【事实】据Reuters报道，OpenAI暂停其英国数据中心项目，原因是当地监管环境不利和成本过高。AI公司在大规模算力部署中面临电力成本、土地审批和环保监管等实际挑战。【影响】AI数据中心选址从监管严格的高成本地区向监管宽松的低成本地区转移的趋势愈发明���。利好美国和东南亚等政策友好地区的数据中心建设。能源成本和监管环境成为影响AI产业发展格局的关键变量。【限制】暂停不代表取消，OpenAI可能调整方案或重新选址。英国政府可能优化审批流程以吸引AI投资。",
+      "direction": "positive",
+      "importance": 4,
+      "external_theme": "OIL_GAS",
+      "event_type": "geopolitical",
+      "source": "Reuters, SemiEngineering",
+      "source_url": "https://www.reuters.com/business/openai-pauses-uk-data-centre-project-over-regulation-costs-2026-04-09/",
+      "event_time_utc8": "2026-04-09T00:00:00.000Z",
+      "usable_trade_date": "2026-04-08T16:00:00.000Z",
+      "mentioned_tickers": "MSFT,GOOGL,AMZN"
+    },
+    {
+      "event_id": "CATALYST-2026-04-09-007",
+      "title": "智利SQM下调2026年锂产量指引 全球锂供给过剩预期缓解",
+      "summary": "【事实】智利锂矿巨头SQM下调2026年锂产量增长指引，因盐湖提锂产能扩张进度低于预期。加之澳大利亚部分锂矿因锂价前期低迷而减产，全球锂供给过剩格局有望得到改善。【影响】主要锂企减产信号缓解市场对锂供给持续过剩的担忧，有助于锂价企稳回升。供需平衡时间点可能提前到来，对锂矿和锂盐企业盈利预期构成利好。【限制】SQM产量调整幅度有限，且其他产区（中国、澳大利亚、非洲）新增产能仍在释放。锂价能否趋势性回升仍需观察下游尤其是储能需求的实际拉动效果。",
+      "direction": "positive",
+      "importance": 3,
+      "external_theme": "LITHIUM",
+      "event_type": "price",
+      "source": "SMM, Bloomberg",
+      "source_url": "https://www.bloomberg.com/",
+      "event_time_utc8": "2026-04-09T08:00:00.000Z",
+      "usable_trade_date": "2026-04-08T16:00:00.000Z",
+      "mentioned_tickers": "002460.SZ,002466.SZ,SQM"
+    },
+    {
+      "event_id": "CATALYST-2026-04-09-006",
+      "title": "稀土磁材需求持续增长 新能源车和风电订单饱满 价格企稳回升",
+      "summary": "【事实】受益于新能源车、风电和工业电机等领域需求拉动，稀土磁材下游订单保持饱满。镨钕氧化物等主流稀土产品价格在前期调整后企稳回升。中国稀土集团持续发挥行业整合成效。【影响】新能源和节能领域对高性能钕铁硼磁材需求持续增长，稀土磁材企业订单能见度改善。供给端整合（中国稀土集团成立）有利于行业健康发展。中长期汽车电动化、直驱风电和人形机器人将贡献增量需求。【限制】稀土价格前期大幅波动后，下游对高价接受度有限。人形机器人商业化时间表不确定，短期增量有限。海外稀土矿供应增量可能影响供需格局。",
+      "direction": "positive",
+      "importance": 3,
+      "external_theme": "RARE_EARTH",
+      "event_type": "demand",
+      "source": "SMM, 百川盈孚",
+      "source_url": "https://www.smm.cn/",
+      "event_time_utc8": "2026-04-09T07:00:00.000Z",
+      "usable_trade_date": "2026-04-08T16:00:00.000Z",
+      "mentioned_tickers": "600010.SH,600392.SH,000970.SZ"
+    }
+  ]
+}

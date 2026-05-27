@@ -1,0 +1,105 @@
+{
+  "success": true,
+  "date": "2026-04-14",
+  "count": 6,
+  "summary": {
+    "total": 6,
+    "by_direction": {
+      "positive": 5,
+      "negative": 1
+    },
+    "by_theme": {
+      "SEMICONDUCTOR": 3,
+      "AI_HARDWARE": 1,
+      "OIL_GAS": 1,
+      "DATA_CENTER_POWER": 1
+    },
+    "high_impact": 6
+  },
+  "data": [
+    {
+      "event_id": "CATALYST-2026-04-14-005",
+      "title": "Teradyne收购以色列TestInsight 加速AI和数据中心器件测试能力",
+      "summary": "【事实】Teradyne宣布收购以色列半导体测试公司TestInsight，该公司提供图案转换、验证和虚拟测试功能。收购旨在加速AI和数据中心器件上市时间。【影响】半导体测试领域并购活跃，AI芯片测试需求复杂化推动ATE行业整合。Teradyne增强测试能力将提升其在AI芯片测试高端市场的竞争地位。【限制】收购整合存在风险，收购金额未披露。TestInsight技术与Teradyne现有产品的协同效应需时间验证。",
+      "direction": "positive",
+      "importance": 4,
+      "external_theme": "SEMICONDUCTOR",
+      "event_type": "partnership",
+      "source": "SemiEngineering, Teradyne",
+      "source_url": "https://investors.teradyne.com/news-events/press-releases/detail/439/teradyne-acquires-testinsight-accelerating-time-to-market-for-ai-and-data-center-devices",
+      "event_time_utc8": "2026-04-14T07:00:00.000Z",
+      "usable_trade_date": "2026-04-13T16:00:00.000Z",
+      "mentioned_tickers": "TER,NVDA,AMAT"
+    },
+    {
+      "event_id": "CATALYST-2026-04-14-003",
+      "title": "nEye.ai获8000万美元C轮融资 可重构光路交换技术加速AI基础设施互联",
+      "summary": "【事实】nEye.ai宣布完成8000万美元C轮融资，用于规模化生产可重构光路交换（Optical Circuit Switching）互连方案，该技术结合硅光子和MEMS技术，为AI数据中心提供高带宽低功耗的光互连解决方案。【影响】光互连领域持续获得资本青睐，AI数据中心互联带宽和功耗瓶颈催生光学互连创新需求。nEye.ai的OCS方案有望在AI集群Scale-out网络中替代部分电交换，降低系统功耗。【限制】光路交换技术商业化尚处早期，需在下游大规模部署中验证可靠性和成本效益。C轮融资规模相对于该赛道既有玩家（如Cailabs, HUBER+SUHNER）需追赶。",
+      "direction": "positive",
+      "importance": 4,
+      "external_theme": "AI_HARDWARE",
+      "event_type": "investment",
+      "source": "BusinessWire, SemiEngineering",
+      "source_url": "https://www.businesswire.com/news/home/20260414407496/en/nEye.ai-Secures-%2480-Million-Series-C-to-Scale-Optical-Circuit-Switching-for-AI-Infrastructure",
+      "event_time_utc8": "2026-04-14T03:00:00.000Z",
+      "usable_trade_date": "2026-04-13T16:00:00.000Z",
+      "mentioned_tickers": "GOOGL,META,NVDA"
+    },
+    {
+      "event_id": "CATALYST-2026-04-14-002",
+      "title": "中国长江存储(YMTC)计划年内建成新工厂并再建两座 产能扩张加速",
+      "summary": "【事实】据Reuters报道，中国NAND闪存制造商长江存储(YMTC)将在年内建成一座新工厂，同时计划再建设两座工厂，合计月产能将达10万片晶圆。此举是中国在存储芯片领域加快推进自主可控战略的体现。【影响】YMTC产能逆势扩张，存储芯片国产化替代进程加速。短期将对中国NAND Flash自给率提升产生实质推动作用，长期有望改善中国在全球存储芯片市场的地位和议价能力。【限制】YMTC先进制程专利诉讼风险（与美光的纠纷）可能制约国际销售。NAND市场产能过剩压力可能因YMTC扩产而加大。前段设备采购受出口管制影响。",
+      "direction": "positive",
+      "importance": 4,
+      "external_theme": "SEMICONDUCTOR",
+      "event_type": "capacity",
+      "source": "Reuters, SemiEngineering",
+      "source_url": "https://www.reuters.com/world/china/chinese-chipmaker-ymtc-plans-new-factories-amid-heightened-us-sino-trade-2026-04-14/",
+      "event_time_utc8": "2026-04-14T02:00:00.000Z",
+      "usable_trade_date": "2026-04-13T16:00:00.000Z",
+      "mentioned_tickers": "YMTC,MU,SMSN"
+    },
+    {
+      "event_id": "CATALYST-2026-04-14-001",
+      "title": "溴素因战争成为新供应风险 用于芯片蚀刻的IC级溴化氢气体供应告急",
+      "summary": "【事实】据SemiEngineering报道，溴素在伊朗战争背景下成为新兴供应风险。溴是生产IC级溴化氢（HBr）气体的关键原料，HBr是芯片蚀刻工艺中不可替代的关键气体之一。供应的不确定性影响芯片制造关键化学品的稳定性。【影响】HBr气体供应若受到影响，将直接冲击半导体蚀刻工艺环节，fab端气体采购面临更多不确定性。利好中国国产溴素和电子特气企业，推动替代方案研发。【限制】溴素供应风险当前仍为预警阶段，实际短缺情况需观察。全球溴素供应来源不仅限于中东地区。fab端可通过工艺参数优化降低HBr消耗量。",
+      "direction": "negative",
+      "importance": 4,
+      "external_theme": "OIL_GAS",
+      "event_type": "supply",
+      "source": "SemiEngineering, KITA",
+      "source_url": "https://www.kita.net/board/totalTradeNews/totalTradeNewsDetail.do?no=100729&siteId=1",
+      "event_time_utc8": "2026-04-14T00:00:00.000Z",
+      "usable_trade_date": "2026-04-13T16:00:00.000Z",
+      "mentioned_tickers": "TSM,688596.SH,600309.SH"
+    },
+    {
+      "event_id": "CATALYST-2026-04-14-006",
+      "title": "IDC预测亚太AI支出将从2024年增长5倍至2029年 AI基础设施投资加速",
+      "summary": "【事实】IDC最新预测显示，亚太地区AI支出（包括AI基础设施、软件和服务）将从2024年增长五倍至2029年。AI基础设施投资加速，中国、日本、韩国、印度是主要增长贡献者。【影响】亚太AI支出快速增长为AI产业链提供强劲需求支撑，利好亚太地区的AI服务器、芯片和相关服务提供商。中国AI算力建设作为国家战略持续受益。【限制】预测基于当前趋势，实际支出受宏观经济和政策环境影响。地缘政治紧张可能影响部分AI技术的跨境流动。",
+      "direction": "positive",
+      "importance": 3,
+      "external_theme": "SEMICONDUCTOR",
+      "event_type": "demand",
+      "source": "IDC, SemiEngineering",
+      "source_url": "https://www.idc.com/resource-center/press-releases/asia-pacific-ai-genai-spending-2029-idc/",
+      "event_time_utc8": "2026-04-14T08:00:00.000Z",
+      "usable_trade_date": "2026-04-13T16:00:00.000Z",
+      "mentioned_tickers": "TSM,SMSN,INTC,AMD"
+    },
+    {
+      "event_id": "CATALYST-2026-04-14-004",
+      "title": "Cadence推出AI代理芯片设计平台 与Nvidia和谷歌合作推进AI驱动的EDA",
+      "summary": "【事实】Cadence在CadenceLive上推出AgentStack AI代理平台，配备主代理可协调芯片设计的全部环节，包括定制模拟和数字签核等专业代理。同时Cadence宣布与Nvidia合作将代理AI与物理仿真结合，与谷歌合作将Super Agent集成到Gemini云平台。【影响】AI驱动的EDA工具正从辅助转向主导，芯片设计效率有望大幅提升，缩短AI芯片开发周期。Cadence和Synopsys两大EDA巨头在AI领域的竞争将加速行业创新。【限制】AI代理在复杂芯片设计中的可靠性仍需验证。EDA AI工具的商业化路径和客户采用率需要时间。",
+      "direction": "positive",
+      "importance": 3,
+      "external_theme": "DATA_CENTER_POWER",
+      "event_type": "product",
+      "source": "Cadence, SemiEngineering",
+      "source_url": "https://www.cadence.com/en_US/home/company/newsroom/press-releases/pr/2026/cadence-and-nvidia-expand-partnership-to-reinvent-engineering.html",
+      "event_time_utc8": "2026-04-14T06:00:00.000Z",
+      "usable_trade_date": "2026-04-13T16:00:00.000Z",
+      "mentioned_tickers": "CDNS,NVDA,SNPS"
+    }
+  ]
+}

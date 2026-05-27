@@ -1,0 +1,106 @@
+{
+  "success": true,
+  "date": "2026-04-07",
+  "count": 6,
+  "summary": {
+    "total": 6,
+    "by_direction": {
+      "positive": 4,
+      "negative": 2
+    },
+    "by_theme": {
+      "OIL_GAS": 1,
+      "COPPER": 1,
+      "SEMICONDUCTOR": 2,
+      "AI_HARDWARE": 1,
+      "GOLD": 1
+    },
+    "high_impact": 6
+  },
+  "data": [
+    {
+      "event_id": "CATALYST-2026-04-07-001",
+      "title": "中东冲突升级 韩国AI产业政策遭遇能源危机冲击 创业公司最为脆弱",
+      "summary": "【事实】据《经济学人》报道，韩国雄心勃勃的\"构建AI时代高速公路\"计划正面临伊朗战争引发的能源危机打击。韩国AI产业高度依赖电力，而能源价格飙升和供给不确定性使AI创业公司成为最脆弱的群体，它们缺乏大企业数月的能源储备。【影响】能源危机对AI产业扩张构成硬约束，可能延后韩国AI基础设施建设进度。能源自给率和电力成本成为各国AI产业竞争力的关键要素，利好核电和新能源发电板块。【限制】韩国政府可能通过储备释放和能源多元化缓解危机。大型科技集团（三星、SK）的能源储备相对充足，抗风险能力更强。",
+      "direction": "positive",
+      "importance": 5,
+      "external_theme": "OIL_GAS",
+      "event_type": "geopolitical",
+      "source": "Economist, SemiEngineering",
+      "source_url": "https://www.economist.com/finance-and-economics/2026/04/09/south-koreas-ai-industrial-policy-meets-the-energy-shock",
+      "event_time_utc8": "2026-04-07T00:00:00.000Z",
+      "usable_trade_date": "2026-04-06T16:00:00.000Z",
+      "mentioned_tickers": "000660.KS,SMSN,TSM"
+    },
+    {
+      "event_id": "CATALYST-2026-04-07-006",
+      "title": "全球铜矿供应增长乏力 主要矿山项目延迟 供需缺口扩大",
+      "summary": "【事实】据国际铜研究组织(ICSG)最新报告，全球铜矿产量增速低于预期，多个大型矿山扩建项目因许可审批、水资源短缺等问题延迟投产。与此同时，全球铜需求在新能源和AI数据中心驱动下持续增长，供需缺口正在扩大。【影响】供给增速跟不上需求增长，铜基本面呈持续改善趋势。利好在产铜矿企业和铜冶炼企业。可关注拥有新增矿山项目的公司。【限制】铜价已处高位，上行空间取决于实际供需缺口程度。高铜价可能刺激废铜回收量和闲置产能重启。全球经济下行风险可能抑制铜需求。",
+      "direction": "negative",
+      "importance": 4,
+      "external_theme": "COPPER",
+      "event_type": "supply",
+      "source": "ICSG, Bloomberg",
+      "source_url": "https://www.icsg.org/",
+      "event_time_utc8": "2026-04-07T08:00:00.000Z",
+      "usable_trade_date": "2026-04-06T16:00:00.000Z",
+      "mentioned_tickers": "FCX,SCCO,603993.SH"
+    },
+    {
+      "event_id": "CATALYST-2026-04-07-005",
+      "title": "三星电子2026年资本支出超730亿美元同比增22% 加大AI芯片投资",
+      "summary": "【事实】三星电子宣布2026年资本支出将超过730亿美元，同比增长22%，主要用于半导体业务的先进制程扩产和HBM产能建设。该投资规模创三星历史新高。【影响】三星天量资本支出反映AI芯片需求旺盛，尤其是HBM和先进逻辑芯片产能供不应求。利好三星供应商和半导体设备商。HBM产能扩张有助于缓解AI芯片瓶颈。【限制】巨额资本支出对三星现金流和盈利能力构成压力。HBM竞争加剧（SK海力士、美光）可能压缩利润率。",
+      "direction": "positive",
+      "importance": 4,
+      "external_theme": "SEMICONDUCTOR",
+      "event_type": "capacity",
+      "source": "Yonhap, SemiEngineering",
+      "source_url": "https://en.yna.co.kr/view/AEN20260319009700320",
+      "event_time_utc8": "2026-04-07T07:00:00.000Z",
+      "usable_trade_date": "2026-04-06T16:00:00.000Z",
+      "mentioned_tickers": "SMSN,000660.KS,AMAT,LRCX"
+    },
+    {
+      "event_id": "CATALYST-2026-04-07-004",
+      "title": "阿里巴巴发布10000卡大规模计算集群 用于高性能AI训练推理",
+      "summary": "【事实】阿里巴巴正式推出10000卡大规模计算集群，面向高性能AI训练和推理场景。该集群采用先进互联架构，支持大模型分布式训练，是中国科技企业在AI算力基础设施建设的重要进展。【影响】阿里万卡集群发布表明中国AI算力投入仍在加速，利好国产AI芯片供应链。大规模集群运营经验有助于提升中国AI基础设施的整体水平，推动国产AI芯片生态成熟。【限制】万卡集群实际算力利用率和训练效率取决于软件生态成熟度，与Nvidia集群存在差距。国产AI芯片在大规模集群中表现仍需验证。",
+      "direction": "positive",
+      "importance": 4,
+      "external_theme": "AI_HARDWARE",
+      "event_type": "product",
+      "source": "SCMP, SemiEngineering",
+      "source_url": "https://www.scmp.com/tech/article/3349335/ai-race-us-intensifies-chinas-alibaba-launches-10000-card-computing-cluster",
+      "event_time_utc8": "2026-04-07T06:00:00.000Z",
+      "usable_trade_date": "2026-04-06T16:00:00.000Z",
+      "mentioned_tickers": "BABA,9988.HK,688041.SH"
+    },
+    {
+      "event_id": "CATALYST-2026-04-07-002",
+      "title": "全球央行一季度黄金储备持续增加 去美元化趋势支撑金价",
+      "summary": "【事实】世界黄金协会(WGC)数据显示，2026年一季度全球央行黄金储备继续增加，中国、波兰、印度等为最大买家。央行购金量连续多个季度维持高位，反映了全球去美元化和外汇储备多元化趋势。【影响】央行系统性购金为金价提供坚实的长期需求支撑，金价底部抬升。中国央行连续增持黄金的官方行为提振市场信心，利好黄金投资需求。【限制】金价已处历史高位区间，继续上行空间受美联储货币政策路径影响。部分新兴市场央行购金节奏可能因金价过高而放缓。",
+      "direction": "positive",
+      "importance": 4,
+      "external_theme": "GOLD",
+      "event_type": "price",
+      "source": "中国央行、世界黄金协会",
+      "source_url": "https://www.gold.org/",
+      "event_time_utc8": "2026-04-07T02:00:00.000Z",
+      "usable_trade_date": "2026-04-06T16:00:00.000Z",
+      "mentioned_tickers": "600489.SH,600547.SH,601899.SH"
+    },
+    {
+      "event_id": "CATALYST-2026-04-07-003",
+      "title": "据外媒报道中国通过\"挖角\"渠道获取台湾半导体人才 引发两岸产业博弈关注",
+      "summary": "【事实】据外媒报道，台湾国安部门报告称中国涉嫌通过多种渠道\"挖角\"台湾半导体人才，试图绕过全球出口管制获取先进芯片制造技术。中国方面表示，两岸半导体人才交流属于正常市场行为。【影响】人才争夺反映半导体行业地缘竞争白热化，中国半导体人才缺口和自主攻关压力可见一斑。台湾方面可能强化人才流动管控，加速中国本土半导体人才培养和引进体系建设。【限制】报道引用台湾方面立场，双方对此说法不同。实际人才流动规模和对技术转移的影响较难量化。",
+      "direction": "negative",
+      "importance": 3,
+      "external_theme": "SEMICONDUCTOR",
+      "event_type": "geopolitical",
+      "source": "Reuters, SemiEngineering",
+      "source_url": "https://www.reuters.com/world/china/china-targets-taiwans-chip-prowess-evade-global-containment-taipei-government-2026-04-07/",
+      "event_time_utc8": "2026-04-07T03:00:00.000Z",
+      "usable_trade_date": "2026-04-06T16:00:00.000Z",
+      "mentioned_tickers": "TSM,002371.SZ,688981.SH"
+    }
+  ]
+}

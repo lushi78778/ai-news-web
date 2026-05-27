@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "date": "2026-05-14",
+  "count": 1,
+  "summary": {
+    "total": 1,
+    "by_direction": {
+      "positive": 1
+    },
+    "by_theme": {
+      "HBM_MEMORY": 1
+    },
+    "high_impact": 1
+  },
+  "data": [
+    {
+      "event_id": "CATALYST-20260523-056",
+      "title": "JEDEC推动HBF(高带宽闪存)标准化 AI推理有望迎来存算一体突破",
+      "summary": "【事实】半导体工程报道一种受HBM启发的新型3D闪存堆叠标准HBF（High-Bandwidth Flash）正在推进标准化。HBF容量远超HBM，可静态存储AI模型权重于GPU封装内，优化读取速度，样品预计年底推出，加速器产品明年上市。【影响】HBF可能彻底改变AI推理架构，使大模型权重存储在封装内的闪存而非DRAM中，大幅降低功耗和延迟。这对AI推理成本降低和边缘部署有重大意义。【限制】HBF标准化尚在推进中，样品到量产仍有距离。与HBM相比写入速度慢，适用场景主要限于推理而非训练。",
+      "direction": "positive",
+      "importance": 3,
+      "external_theme": "HBM_MEMORY",
+      "event_type": "product",
+      "source": "SemiEngineering",
+      "source_url": "https://semiengineering.com/flash-getting-stacked-high-bandwidth-version/",
+      "event_time_utc8": "2026-05-13T16:00:00.000Z",
+      "usable_trade_date": "2026-05-13T16:00:00.000Z",
+      "mentioned_tickers": "MU,SMSN,000660.KS,WDC,STX"
+    }
+  ]
+}

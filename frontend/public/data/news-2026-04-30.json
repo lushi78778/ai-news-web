@@ -1,0 +1,122 @@
+{
+  "success": true,
+  "date": "2026-04-30",
+  "count": 7,
+  "summary": {
+    "total": 7,
+    "by_direction": {
+      "positive": 6,
+      "neutral": 1
+    },
+    "by_theme": {
+      "SEMICONDUCTOR": 1,
+      "AI_HARDWARE": 1,
+      "LITHIUM": 1,
+      "HBM_MEMORY": 1,
+      "COPPER": 1,
+      "RARE_EARTH": 1,
+      "OIL_GAS": 1
+    },
+    "high_impact": 7
+  },
+  "data": [
+    {
+      "event_id": "CATALYST-20260523-053",
+      "title": "Apple发布创纪录季度营收1112亿美元但警告内存芯片短缺风险",
+      "summary": "【事实】Apple在2026年4月30日发布FQ2财报，营收1112亿美元创3月季度历史新高，同比增长17%。但CEO Tim Cook警告称公司面临\\RAMageddon\\\"（内存短缺危机）带来的供应链压力，可能影响未来业务。【影响】Apple确认内存芯片供应紧张将影响全行业，验证了存储芯片涨价趋势。利���存储芯片厂商（三星、SK海力士、美光），但可能推高下游硬件成本。【限制】Apple历史上多次发出供应链预警，实际财务影响可能可控。内存短缺主要影响DRAM/NAND，对Apple核心产品影响程度需后续季报验证。\"",
+      "direction": "positive",
+      "importance": 4,
+      "external_theme": "SEMICONDUCTOR",
+      "event_type": "earnings",
+      "source": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/04/30/as-tim-cook-steps-down-apple-hit-record-sales-but-a-chip-shortage-looms/",
+      "event_time_utc8": "2026-04-30T08:59:00.000Z",
+      "usable_trade_date": "2026-04-30T16:00:00.000Z",
+      "mentioned_tickers": "AAPL,MU,SMSN,000660.KS"
+    },
+    {
+      "event_id": "CATALYST-20260523-049",
+      "title": "Apple AI驱动Mac需求超预期 营收84亿美元同比增6%",
+      "summary": "【事实】Apple在2026年4月30日发布FQ2 2026财报，Mac收入达84亿美元，超出市场预期的80亿美元低端区间，同比增长6%。管理层表示Mac的增长部分来自AI工作负载需求，Mac mini、Mac Studio和Mac Neo在下一季度仍将供不应求。【影响】AI应用正在从数据中心扩展到端侧设备，拉动Mac等消费级AI硬件需求，验证了\\AI PC\\\"趋势，利好Apple Silicon供应链和PC硬件生态。【限制】Mac仅占Apple总收入约7.5%，该增长部分受益于新品发布周期（MacBook Neo），AI对Mac的具体拉动占比管理层未量化。\"",
+      "direction": "positive",
+      "importance": 4,
+      "external_theme": "AI_HARDWARE",
+      "event_type": "earnings",
+      "source": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/04/30/apple-was-surprised-by-ai-driven-demand-for-macs/",
+      "event_time_utc8": "2026-04-30T07:12:00.000Z",
+      "usable_trade_date": "2026-04-30T16:00:00.000Z",
+      "mentioned_tickers": "AAPL"
+    },
+    {
+      "event_id": "CATALYST-2026-04-30-005",
+      "title": "全球最大锂矿Greenbushes发布2026年生产指引低于预期 锂辉石价格看涨",
+      "summary": "【事实】天齐锂业和IGO合资的澳大利亚Greenbushes锂矿4月30日发布2026年生产指引，预计全年锂辉石产量约150万吨（折LCE约18万吨），低于市场预期的170万吨。矿山表示主要受品位下降和扩产审批延迟影响。同时Greenbushes将2026年Q2锂辉石精矿长协价格上调10%至1200美元/吨（SC6）。【影响】全球最高品位、最低成本的Greenbushes产量指引下调和售价上调，标志着锂矿供给端收缩信号从边缘矿山向头部矿企传导。锂辉石价格上涨将支撑碳酸锂成本底线，锂化合物价格中枢有望抬升。【限制】Greenbushes产量缺口可能被Wodgina、Mt Marion等其他澳矿新增产能填补。中国锂云母提锂产能仍在扩张。",
+      "direction": "positive",
+      "importance": 4,
+      "external_theme": "LITHIUM",
+      "event_type": "supply",
+      "source": "MINING.COM",
+      "source_url": "https://www.mining.com/category/lithium/",
+      "event_time_utc8": "2026-04-30T07:00:00.000Z",
+      "usable_trade_date": "2026-04-29T16:00:00.000Z",
+      "mentioned_tickers": "002466.SZ,ALB,SQM,002460.SZ,000792.SZ"
+    },
+    {
+      "event_id": "CATALYST-2026-04-30-003",
+      "title": "三星电子宣布HBM4开发完成并通过英伟达认证 计划Q3量产",
+      "summary": "【事实】三星电子4月30日宣布已完成HBM4（第六代高带宽内存）开发，并通过英伟达的性能认证测试，成为继SK海力士之后第二家获得英伟达HBM4认证的厂商。三星计划2026年第三季度开始量产HBM4，并已启动其平泽P3厂的HBM专用封装产线建设。HBM4采用混合键合（Hybrid Bonding）先进封装技术，带宽达2TB/s以上。【影响】三星HBM4获得英伟达认证意味着HBM供应格局从SK海力士独家向双寡头演变，HBM产能总体增加有利于缓解AI芯片的HBM瓶颈。三星在先进封装技术路线的选择（混合键合）可能引领HBM技术迭代方向。【限制】三星HBM4认证通过但产能爬坡仍需时间，初期良率与SK海力士相比可能仍有差距。HBM投资回报周期长，供需格局动态变化。",
+      "direction": "positive",
+      "importance": 4,
+      "external_theme": "HBM_MEMORY",
+      "event_type": "product",
+      "source": "TrendForce",
+      "source_url": "https://www.trendforce.com/news/",
+      "event_time_utc8": "2026-04-30T04:00:00.000Z",
+      "usable_trade_date": "2026-04-29T16:00:00.000Z",
+      "mentioned_tickers": "SMSD.IL,000660.KS,MU,NVDA,002371.SZ,688012.SH"
+    },
+    {
+      "event_id": "CATALYST-2026-04-30-004",
+      "title": "中国南方电网2026年计划投资同比增长15% 铜电缆需求持续受益",
+      "summary": "【事实】中国南方电网4月30日公布2026年固定资产投资计划，总额约1500亿元，同比增15%，其中电网基建投资超1200亿元。重点投资方向包括特高压输电工程、配电网智能化升级和新能源并网设施。铜电缆和铜母线等是电网投资的主要金属耗材。【影响】两大电网年度投资合计超8000亿元，为铜消费提供稳定的内生增长动力。预计2026年中国电力领域铜消费量将突破700万吨，同比增长约8%。铜铝等基本金属长期需求逻辑清晰。【限制】电网投资进度受审批和施工周期影响。铜价高位可能促使电网企业部分采用铝代铜方案。",
+      "direction": "positive",
+      "importance": 3,
+      "external_theme": "COPPER",
+      "event_type": "demand",
+      "source": "财联社",
+      "source_url": "https://finance.sina.com.cn/stock/",
+      "event_time_utc8": "2026-04-30T05:30:00.000Z",
+      "usable_trade_date": "2026-04-29T16:00:00.000Z",
+      "mentioned_tickers": "600362.SH,000630.SZ,600702.SH,601899.SH"
+    },
+    {
+      "event_id": "CATALYST-2026-04-30-002",
+      "title": "工信部公布2026年首批稀土开采总量控制指标 同比增5%但低于预期",
+      "summary": "【事实】工信部4月30日公布2026年第一批稀土开采总量控制指标为14.5万吨（REO），同比增长5%，但低于市场此前预期的8-10%增速。其中轻稀土12.5万吨，中重稀土2万吨。北方稀土获分配7.6万吨轻稀土指标，中国稀土集团获2.1万吨中重稀土指标。【影响】指标增速低于预期进一步确认供给端管控趋严的政策导向，利好稀土价格中枢上移。中重稀土指标严格控制在2万吨以内，镝铽等战略品种供需矛盾凸显。龙头企业获得集中度更高的指标分配，行业集中度持续提升。【限制】下半年第二批指标可能上调以平衡供需。指标增长配合全球稀土矿供给释放节奏，实际对价格影响需观察终端需求强度。",
+      "direction": "positive",
+      "importance": 3,
+      "external_theme": "RARE_EARTH",
+      "event_type": "policy",
+      "source": "财联社 (Xinhua)",
+      "source_url": "https://www.xinhuanet.com/fortune/",
+      "event_time_utc8": "2026-04-30T02:30:00.000Z",
+      "usable_trade_date": "2026-04-29T16:00:00.000Z",
+      "mentioned_tickers": "600010.SH,000831.SZ,600259.SH,300748.SZ"
+    },
+    {
+      "event_id": "CATALYST-2026-04-30-001",
+      "title": "国家统计局：4月中国制造业PMI为50.8 连续两月扩张 石油加工行业回升",
+      "summary": "【事实】国家统计局4月30日公布4月制造业采购经理指数（PMI）为50.8，较上月下降0.1个百分点，连续两个月处于扩张区间。其中石油加工及炼焦业PMI为52.3，环比回升1.5个百分点，为近6个月最高。新订单指数51.2显示需求温和扩张。【影响】PMI维持扩张表明中国经济稳步复苏，石油加工行业景气回升支撑原油需求预期。成品油消费旺季来临提振炼厂开工率。工业生产稳定对铜铝等基本金属消费提供基本面支撑。【限制】PMI扩张幅度偏小，部分中小企业PMI仍处荣枯线以下。房地产和基建投资增速放缓制约工业品需求强度。",
+      "direction": "neutral",
+      "importance": 3,
+      "external_theme": "OIL_GAS",
+      "event_type": "macro",
+      "source": "财联社 (CCTV/Xinhua)",
+      "source_url": "https://www.xinhuanet.com/fortune/",
+      "event_time_utc8": "2026-04-30T01:00:00.000Z",
+      "usable_trade_date": "2026-04-29T16:00:00.000Z",
+      "mentioned_tickers": "601857.SH,600028.SH,600346.SH,000630.SZ"
+    }
+  ]
+}

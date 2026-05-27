@@ -1,0 +1,93 @@
+{
+  "success": true,
+  "date": "2026-04-27",
+  "count": 5,
+  "summary": {
+    "total": 5,
+    "by_direction": {
+      "negative": 1,
+      "positive": 3,
+      "neutral": 1
+    },
+    "by_theme": {
+      "SEMICONDUCTOR": 1,
+      "DATA_CENTER": 1,
+      "GOLD": 1,
+      "OIL_GAS": 1,
+      "RARE_EARTH": 1
+    },
+    "high_impact": 5
+  },
+  "data": [
+    {
+      "event_id": "CATALYST-2026-04-27-001",
+      "title": "美国商务部将中芯国际等7家中国实体列入出口管制\"实体清单\"",
+      "summary": "【事实】4月27日，美国商务部工业与安全局（BIS）宣布将中芯国际（SMIC）及其6家关联企业列入出口管制\"实体清单\"，限制上述企业获取美国技术和设备。理由是对中芯国际此前被披露违规向受制裁实体供货的进一步惩罚。BIS同时收窄了\"微量原则\"例外条款，扩大对华半导体设备出口限制范围。【影响】中芯国际先进制程产能扩张进一步受限，国产芯片制造自主化压力骤增。半导体设备国产替代紧迫性提升，北方华创、中微公司等国产设备商迎来加速验证期。对中国AI芯片设计公司的代工渠道构成严重制约。【限制】中国商务部表示将采取必要措施维护中国企业合法权益。中芯国际公告称正评估影响并寻求法律救济，其成熟制程产能不受影响。美国半导体设备企业在华收入也可能受损。",
+      "direction": "negative",
+      "importance": 5,
+      "external_theme": "SEMICONDUCTOR",
+      "event_type": "policy",
+      "source": "财联社",
+      "source_url": "https://finance.sina.com.cn/stock/",
+      "event_time_utc8": "2026-04-27T00:30:00.000Z",
+      "usable_trade_date": "2026-04-26T16:00:00.000Z",
+      "mentioned_tickers": "SMIC,002371.SH,688012.SH,688981.SH,300661.SZ,600703.SH"
+    },
+    {
+      "event_id": "CATALYST-2026-04-27-004",
+      "title": "中国移动启动200亿元AI数据中心招标 算力基建加速",
+      "summary": "【事实】4月27日，中国移动发布2026年AI数据中心集群建设项目招标公告，总预算约200亿元人民币，涵盖GPU服务器采购约12万台、高速光模块约150万只、液冷系统及配套基础设施。这是中国移动年度最大规模AI算力招标，旨在快速响应国内AI大模型企业和政务云需求。【影响】运营商大规模AI算力招标直接利好国产服务器厂商（中兴通讯、浪潮信息）、光模块企业（中际旭创、新易盛）和液冷散热供应商。国产AI芯片（华为昇腾、寒武纪思元）也有望部分替代进口GPU获得批量订单。【限制】招标执行周期较长，实际交付节奏存在不确定性。海外先进GPU获取受出口管制限制，国产AI芯片性能差距仍制约算力集群能效。",
+      "direction": "positive",
+      "importance": 4,
+      "external_theme": "DATA_CENTER",
+      "event_type": "capex",
+      "source": "财联社",
+      "source_url": "https://www.cls.cn/telegraph",
+      "event_time_utc8": "2026-04-27T06:30:00.000Z",
+      "usable_trade_date": "2026-04-26T16:00:00.000Z",
+      "mentioned_tickers": "600941.SH,000063.SZ,000977.SZ,300308.SZ,300502.SZ,688256.SH,688041.SH"
+    },
+    {
+      "event_id": "CATALYST-2026-04-27-002",
+      "title": "中国一季度黄金消费量同比增12% 金条金币投资需求旺盛",
+      "summary": "【事实】中国黄金协会4月27日发布数据，2026年一季度全国黄金消费量308.5吨，同比增长12.03%。其中黄金首饰消费182.5吨同比增8%，金条及金币消费116吨同比增24%，工业及其他用金10吨同比降3%。金价持续上涨背景下，投资性金条金币需求显著增长，消费者\"买涨不买跌\"心理明显。【影响】中国黄金消费需求结构向投资性转变，金条金币需求增速远超首饰消费，反映居民对黄金作为避险资产配置意愿增强。黄金珠宝企业（老凤祥、周大生）虽面临金价高企抑制部分首饰消费，但整体营收受益于金价上涨。【限制】金价持续高位可能逐步抑制黄金首饰消费弹性。央行购金量的增长空间受国际储备比例约束。",
+      "direction": "positive",
+      "importance": 4,
+      "external_theme": "GOLD",
+      "event_type": "demand",
+      "source": "财联社 (Xinhua)",
+      "source_url": "https://www.xinhuanet.com/fortune/",
+      "event_time_utc8": "2026-04-27T02:00:00.000Z",
+      "usable_trade_date": "2026-04-26T16:00:00.000Z",
+      "mentioned_tickers": "600489.SH,600547.SH,002155.SZ,600612.SH,002867.SZ"
+    },
+    {
+      "event_id": "CATALYST-2026-04-27-005",
+      "title": "伊拉克称OPEC+5月会议可能讨论小幅增产以缓解油市紧张",
+      "summary": "【事实】4月27日，伊拉克石油部长表示OPEC+可能在5月例行会议上讨论小幅增产方案，以缓解当前全球石油市场供应偏紧的局面。他称伊拉克支持\"渐进式\"增产，以避免对油价造成过大冲击。沙特方面尚未对此表态。此前OPEC+已通过自愿减产将日产量削减约586万桶。【影响】OPEC+增产讨论可能阶段性压制油价上行势头，短期对油气板块形成一定压力。但\"渐进式\"增产意味着原油供应回归将较为温和，全年油价中枢仍有望维持高位。【限制】增产方案需OPEC+全体成员国协商一致，沙特的态度最为关键。若需求端数据走弱，增产可能推迟或幅度缩小。",
+      "direction": "neutral",
+      "importance": 3,
+      "external_theme": "OIL_GAS",
+      "event_type": "policy",
+      "source": "OilPrice",
+      "source_url": "https://oilprice.com/Energy/Crude-Oil/",
+      "event_time_utc8": "2026-04-27T08:00:00.000Z",
+      "usable_trade_date": "2026-04-26T16:00:00.000Z",
+      "mentioned_tickers": "XOM,SHEL,TTE,601857.SH,600028.SH,600346.SH"
+    },
+    {
+      "event_id": "CATALYST-2026-04-27-003",
+      "title": "缅甸稀土矿进口因边境安全检查暂停 国内稀土矿价格跳涨",
+      "summary": "【事实】4月27日，中国瑞丽—缅甸边境口岸稀土矿进口因缅方加强安全检查及道路修复临时暂停，影响缅甸稀土精矿每日约200吨的进口量。缅甸是中国中重稀土矿（镝、铽等）的主要来源国，占中国中重稀土进口量的约70%。受此影响，国内氧化镝价格单日上涨3%至295万元/吨。【影响】缅甸进口暂停将加剧国内中重稀土供给紧张，稀土价格短期有望继续走高，利好拥有中重稀土矿权指标的企业（中国稀土集团、广晟有色等）。稀土战略资源价值进一步凸显。【限制】边境贸易暂停为临时性措施，预计1-2周内恢复。国内稀土分离企业原料库存可支撑1-2个月。长期来看，中国正在推进稀土矿进口来源多元化。",
+      "direction": "positive",
+      "importance": 3,
+      "external_theme": "RARE_EARTH",
+      "event_type": "supply",
+      "source": "MINING.COM",
+      "source_url": "https://www.mining.com/category/rare-earth/",
+      "event_time_utc8": "2026-04-27T03:00:00.000Z",
+      "usable_trade_date": "2026-04-26T16:00:00.000Z",
+      "mentioned_tickers": "000831.SZ,600259.SH,300748.SZ,600366.SH"
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "success": true,
+  "date": "2026-05-06",
+  "count": 6,
+  "summary": {
+    "total": 6,
+    "by_direction": {
+      "positive": 4,
+      "neutral": 1,
+      "negative": 1
+    },
+    "by_theme": {
+      "LITHIUM": 2,
+      "GOLD": 1,
+      "OIL_GAS": 1,
+      "DATA_CENTER": 1,
+      "SEMICONDUCTOR": 1
+    },
+    "high_impact": 6
+  },
+  "data": [
+    {
+      "event_id": "CATALYST-20260523-032",
+      "title": "Albemarle's quarterly profit jumps on rising lithium prices",
+      "summary": "【事实】Albemarle一季度净利润因锂价上涨大幅增长营收和利润均超预期。【影响】全球最大锂生产商业绩改善确认锂行业基本面好转为锂价提供支撑。【限制】业绩改善部分由低基数效应贡献可持续性需后续季度验证。",
+      "direction": "positive",
+      "importance": 5,
+      "external_theme": "LITHIUM",
+      "event_type": "earnings",
+      "source": "Reuters",
+      "source_url": "https://www.mining.com/web/albemarles-quarterly-profit-jumps-on-rising-lithium-prices/",
+      "event_time_utc8": "2026-05-06T06:20:00.000Z",
+      "usable_trade_date": "2026-05-06T16:00:00.000Z",
+      "mentioned_tickers": "ALB"
+    },
+    {
+      "event_id": "CATALYST-2026-05-06-002",
+      "title": "Lithium Americas Q1业绩超预期 Thacker Pass项目推进顺利",
+      "summary": "【事实】5月6日Lithium Americas（LAC）公布2026年Q1财报，营收和利润均超市场预期。公司宣布其内华达州Thacker Pass锂矿项目进展顺利，一期产能3万吨LCE预计2027年初投产，二期扩建至6万吨的可行性研究已完成。公司同时获得美国能源部23.6亿美元贷款用于项目建设。但公司警告如果美国关税政策持续，项目设备进口成本可能增加1.2亿美元。【影响】LAC超预期财报和Thacker Pass项目推进为全球锂矿供给增加新变量，但该项目远期投产对中短期供需格局影响有限。美国对中国锂电池关税政策的变化是主要风险因素。中国锂盐企业在北美市场的竞争面临挑战。【限制】Thacker Pass项目投产时间在2027年，短期内不影响全球锂供需。美国环保组织的法律挑战和原住民土地权利争议仍有不确定性。",
+      "direction": "positive",
+      "importance": 5,
+      "external_theme": "LITHIUM",
+      "event_type": "earnings",
+      "source": "MINING.COM",
+      "source_url": "https://www.mining.com/category/lithium/",
+      "event_time_utc8": "2026-05-06T02:00:00.000Z",
+      "usable_trade_date": "2026-05-05T16:00:00.000Z",
+      "mentioned_tickers": "ALB,SQM,LAC,002460.SZ,002466.SZ"
+    },
+    {
+      "event_id": "CATALYST-2026-05-06-001",
+      "title": "世界黄金协会报告：全球黄金ETF连续7个月净流入 4月流入85亿美元",
+      "summary": "【事实】世界黄金协会（WGC）5月6日发布4月全球黄金ETF流量报告，4月全球黄金ETF净流入约85亿美元（约150吨），连续第7个月实现净流入，总持仓创2020年9月以来新高。北美和欧洲市场流入量最大，亚洲市场（特别是中国）黄金ETF规模同比增长80%。投资者对通胀、地缘政治和贸易冲突的担忧是主要驱动力。【影响】黄金ETF持续大规模流入为金价提供坚实的买家基础，也表明本轮黄金上涨有坚实的基本面支撑而非单纯的投机行情。中国黄金ETF规模快速增长反映居民财富配置向黄金转移的趋势。【限制】ETF持续高流量后存在阶段性降速风险。COMEX期货持仓已处历史高位，投机性多头拥挤。金价若出现回调可能触发ETF获利赎回。",
+      "direction": "positive",
+      "importance": 4,
+      "external_theme": "GOLD",
+      "event_type": "price",
+      "source": "Bloomberg News",
+      "source_url": "https://www.bloomberg.com/markets",
+      "event_time_utc8": "2026-05-06T00:00:00.000Z",
+      "usable_trade_date": "2026-05-05T16:00:00.000Z",
+      "mentioned_tickers": "GOLD,GLD,600489.SH,600547.SH,002155.SZ"
+    },
+    {
+      "event_id": "CATALYST-2026-05-06-005",
+      "title": "沙特阿美Q1净利润同比增12% 受油价上涨和产量稳定推动",
+      "summary": "【事实】沙特阿美5月6日发布2026年第一季度财报，归母净利润同比增长12%至310亿美元，主要受益于布伦特原油均价同比上涨和稳定的产量水平。公司宣布维持每股派息不变，并计划扩大天然气和石化业务投资。2026年资本开支预计480-500亿美元。【影响】沙特阿美强劲财报反映全球油气巨头在油价92美元环境下的盈利弹性。中国石油和中国海油Q1业绩预期同样向好，高油价环境下能源央企价值重估逻辑通顺。沙特扩大天然气和石化投资意味着全球能源转型下油气企业的多元化布局。【限制】沙特阿美产量受OPEC+框架约束，产量增长空间有限。全球碳减排压力长期对油气需求构成结构性抑制。",
+      "direction": "positive",
+      "importance": 3,
+      "external_theme": "OIL_GAS",
+      "event_type": "earnings",
+      "source": "OilPrice (Bloomberg)",
+      "source_url": "https://www.bloomberg.com/energy",
+      "event_time_utc8": "2026-05-06T08:00:00.000Z",
+      "usable_trade_date": "2026-05-05T16:00:00.000Z",
+      "mentioned_tickers": "XOM,CVX,CNOOC,601857.SH,600028.SH"
+    },
+    {
+      "event_id": "CATALYST-2026-05-06-004",
+      "title": "中国四部门联合发布《数据中心绿色低碳发展行动计划》 设能耗约束",
+      "summary": "【事实】5月6日，国家发改委、工信部等四部门联合发布《数据中心绿色低碳发展行动计划（2026-2028年）》，要求到2028年新建大型数据中心PUE降至1.15以下，现存老旧数据中心改造升级。计划还提出东数西算工程八大枢纽间网络时延进一步优化，鼓励数据中心使用绿电比例不低于60%。【影响】绿色低碳政策约束利好液冷散热、高效电源模块、智能温控解决方案提供商。液冷渗透率有望从当前约20%快速提升至2028年的50%。数据中心存量改造升级需求也为相关设备商创造增量市场。绿电使用要求长期利好新能源发电企业。【限制】老旧数据中心改造投资大、周期长。PUE指标达标对部分高功率AI数据中心是挑战。政策执行的灵活性和过渡期安排有待明确。",
+      "direction": "neutral",
+      "importance": 3,
+      "external_theme": "DATA_CENTER",
+      "event_type": "policy",
+      "source": "财联社 (CCTV/Xinhua)",
+      "source_url": "https://www.xinhuanet.com/fortune/",
+      "event_time_utc8": "2026-05-06T06:00:00.000Z",
+      "usable_trade_date": "2026-05-05T16:00:00.000Z",
+      "mentioned_tickers": "300750.SZ,688041.SH,300308.SZ,300502.SZ,600941.SH"
+    },
+    {
+      "event_id": "CATALYST-2026-05-06-003",
+      "title": "ASML警告：2026年EUV光刻机产能已售罄 交付排期延至2028年",
+      "summary": "【事实】ASML 5月6日向投资者表示，2026年High-NA EUV和标准EUV光刻机的产能已全部售罄，新订单交付排期已延长至2028年。台积电、三星和英特尔为扩大2nm/3nm产能抢购了全部可用的High-NA EUV产能。ASML同时上调2026年营收指引至350亿欧元。【影响】EUV产能全面售罄意味着全球先进制程（7nm以下）扩产进度将受设备交期约束长达2年。台积电和三星产能扩张确定性最强，而英特尔和其他晶圆代工企业面临更大扩产不确定性。中国先进制程发展面临的设备瓶颈进一步凸显，但国产光刻机替代需求紧迫性提升。【限制】ASML产能瓶颈虽限制短中期扩产，但有利于维持现有晶圆厂的高产能利用率。国产光刻机距离量产仍有较长时间。",
+      "direction": "negative",
+      "importance": 3,
+      "external_theme": "SEMICONDUCTOR",
+      "event_type": "supply",
+      "source": "Bloomberg News",
+      "source_url": "https://www.bloomberg.com/technology",
+      "event_time_utc8": "2026-05-06T03:30:00.000Z",
+      "usable_trade_date": "2026-05-05T16:00:00.000Z",
+      "mentioned_tickers": "ASML,TSM,SMSD.IL,INTC,002371.SH,688012.SH"
+    }
+  ]
+}

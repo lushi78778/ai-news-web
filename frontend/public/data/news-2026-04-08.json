@@ -1,0 +1,105 @@
+{
+  "success": true,
+  "date": "2026-04-08",
+  "count": 6,
+  "summary": {
+    "total": 6,
+    "by_direction": {
+      "positive": 6
+    },
+    "by_theme": {
+      "AI_HARDWARE": 1,
+      "SEMICONDUCTOR": 2,
+      "DATA_CENTER_POWER": 1,
+      "LITHIUM": 1,
+      "ROBOTICS": 1
+    },
+    "high_impact": 6
+  },
+  "data": [
+    {
+      "event_id": "CATALYST-2026-04-08-002",
+      "title": "博通将为谷歌开发下一代TPU芯片 Anthropic谷歌博通三方签定数GW算力协议",
+      "summary": "【事实】Broadcom宣布将开发并向谷歌供应未来TPU芯片、网络和其他组件。同时，Anthropic、谷歌和Broadcom签署协议，共同建设数GW（吉瓦）的下一代TPU算力，计划于2027年上线，大部分位于美国本土。【影响】定制AI芯片(ASIC)需求爆发式增长，博通的TPU单和网络业务获得长期增长动力。数吉瓦级别算力投资规模前所未有，表明AI军备竞赛仍在加速。Anthropic作为顶级AI公司锁定长期算力，反映AI应用需求端强劲。【限制】大规模算力基础设施投资面临能源供应和审批风险。ASIC vs GPU的技术路线竞争仍在演进，客户集中风险较高。",
+      "direction": "positive",
+      "importance": 5,
+      "external_theme": "AI_HARDWARE",
+      "event_type": "partnership",
+      "source": "Anthropic Blog, SEC Filing, SemiEngineering",
+      "source_url": "https://www.anthropic.com/news/google-broadcom-partnership-compute",
+      "event_time_utc8": "2026-04-08T02:00:00.000Z",
+      "usable_trade_date": "2026-04-07T16:00:00.000Z",
+      "mentioned_tickers": "AVGO,GOOGL,ANTH"
+    },
+    {
+      "event_id": "CATALYST-2026-04-08-001",
+      "title": "Gartner预测2026年全球半导体收入突破1.3万亿美元 同比增长64% 创20年最强增长",
+      "summary": "【事实】Gartner发布最新预测，2026年全球半导体收入将突破1万亿美元大关，达到1.3万亿美元，同比增长64%，创下二十多年来最强增长纪录。存储器是最大增长加速器，AI算力需求驱动全品类芯片需求。【影响】行业增长率远超历史均值，确认AI驱动的半导体超级周期。1.3万亿美元规模意味着行业体量将在两年内翻番，对全产业链构成重大利好。设备和材料环节需求同步增长。【限制】高增长基数下后续增速必然放缓，行业周期性波动不可避免。地缘政治风险和中美科技博弈可能影响未来增长持续性。",
+      "direction": "positive",
+      "importance": 5,
+      "external_theme": "SEMICONDUCTOR",
+      "event_type": "forecast",
+      "source": "Gartner, SemiEngineering",
+      "source_url": "https://www.gartner.com/en/newsroom/press-releases/2026-04-08-gartner-forecasts-worldwide-semiconductor-revenue-to-exceed-us-dollars-one-point-3-trillion-in-2026",
+      "event_time_utc8": "2026-04-08T00:00:00.000Z",
+      "usable_trade_date": "2026-04-07T16:00:00.000Z",
+      "mentioned_tickers": "TSM,INTC,SMSN,ASML"
+    },
+    {
+      "event_id": "CATALYST-2026-04-08-005",
+      "title": "SEMI报告2025年全球半导体设备出货1350亿美元创新高 测试设备增长55%",
+      "summary": "【事实】SEMI发布报告显示，2025年全球半导体制造设备出货金额达1350亿美元，同比增长15%，创历史新高。其中测试设备是增长最快的细分领域之一，出货金额增长55%。【影响】设备出货创新高验证半导体行业强劲的扩产意愿，AI需求驱动下设备投入持续增长。测试设备55%增幅反映先进封装和异构集成对测试需求的激增。SEMI预测300mm fab设备支出2026年+18%至1330亿美元。【限制】2025年高基数可能使2026年增速放缓。美国对华设备出口管制可能影响部分设备供应商收入。",
+      "direction": "positive",
+      "importance": 4,
+      "external_theme": "SEMICONDUCTOR",
+      "event_type": "sale",
+      "source": "SEMI, SemiEngineering",
+      "source_url": "https://www.semi.org/en/SEMI-Reports-Global-Semiconductor-Equipment-Billings-Reached-135-Billion-in-2025",
+      "event_time_utc8": "2026-04-08T07:00:00.000Z",
+      "usable_trade_date": "2026-04-07T16:00:00.000Z",
+      "mentioned_tickers": "AMAT,LRCX,KLAC,ASML"
+    },
+    {
+      "event_id": "CATALYST-2026-04-08-003",
+      "title": "Siemens与Nvidia合作实现片上验证新突破 数万亿次验证周期数日内完成",
+      "summary": "【事实】Siemens和Nvidia宣布验证技术重大突破，通过Siemens Veloce proFPGA CS可扩展硬件架构结合NVIDIA性能优化芯片架构，能够在数天内完成数万亿次验证周期，大幅缩短芯片验证时间。【影响】芯片验证效率提升将加速AI芯片设计迭代，降低芯片开发成本和上市时间，利好整个半导体设计生态。EDA+AI融合趋势进一步加强。【限制】该技术当前主要面向高端芯片设计，对于中小规模芯片设计的经济性需评估。实际客户采用率和效果需要时间验证。",
+      "direction": "positive",
+      "importance": 4,
+      "external_theme": "DATA_CENTER_POWER",
+      "event_type": "capex",
+      "source": "Siemens, SemiEngineering",
+      "source_url": "https://news.siemens.com/en-us/siemens-nvidia-veloce/",
+      "event_time_utc8": "2026-04-08T03:00:00.000Z",
+      "usable_trade_date": "2026-04-07T16:00:00.000Z",
+      "mentioned_tickers": "NVDA,Siemens"
+    },
+    {
+      "event_id": "CATALYST-2026-04-08-006",
+      "title": "中国磷酸铁锂电池海外需求爆发 储能出口订单大增 上游锂盐去库加速",
+      "summary": "【事实】据中国海关总署及行业数据显示，2026年一季度中国磷酸铁锂电池出口量和储能系统出口订单均大幅增长。欧美储能项目建设加速，带动中国锂电产业链出口需求旺盛。上游碳酸锂库存持续去化。【影响】储能出口需求成为锂需求增量的重要一极，有望消化锂盐过剩产能。储能锂电化趋势将提升锂需求的长期稳定性，降低对单一新能源车市场的依赖。【限制】海外储能项目存在政策补贴调整风险。美国对中国电池产品关税政策可能影响出口竞争力。锂供给端全球产能释放仍在继续。",
+      "direction": "positive",
+      "importance": 3,
+      "external_theme": "LITHIUM",
+      "event_type": "demand",
+      "source": "海关总署, SMM",
+      "source_url": "https://www.customs.gov.cn/",
+      "event_time_utc8": "2026-04-08T08:00:00.000Z",
+      "usable_trade_date": "2026-04-07T16:00:00.000Z",
+      "mentioned_tickers": "300750.SZ,002074.SZ,600104.SH"
+    },
+    {
+      "event_id": "CATALYST-2026-04-08-004",
+      "title": "英特尔展示全球最薄GaN芯片 300mm GaN-on-Si晶圆 面向AI电力系统",
+      "summary": "【事实】Intel Foundry展示了全球最薄的GaN（氮化镓）芯片，基于300mm GaN-on-Si晶圆，硅基厚度仅19μm。该技术面向高效率电力传输和RF性能，可集成到chiplet架构中用于AI数据中心的电源管理。【影响】GaN-on-Si技术的突破为AI数据中心高效电力管理提供新方案，利好GaN功率半导体产业链。Intel在GaN领域的布局表明其在AI基础设施电力环节的参与度加深。【限制】19μm超薄GaN技术尚处于实验室阶段，量产可行性待验证。GaN功率器件仍需克服成本和可靠性方面的挑战。",
+      "direction": "positive",
+      "importance": 3,
+      "external_theme": "ROBOTICS",
+      "event_type": "product",
+      "source": "Intel Community, SemiEngineering",
+      "source_url": "https://community.intel.com/t5/Blogs/Intel-Foundry/Systems-Foundry-for-the-AI-Era/",
+      "event_time_utc8": "2026-04-08T06:00:00.000Z",
+      "usable_trade_date": "2026-04-07T16:00:00.000Z",
+      "mentioned_tickers": "INTC,STM,ON"
+    }
+  ]
+}

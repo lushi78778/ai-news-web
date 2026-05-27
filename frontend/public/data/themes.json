@@ -1,0 +1,58 @@
+{
+  "themes": [
+    {
+      "code": "AI_HARDWARE"
+    },
+    {
+      "code": "COPPER"
+    },
+    {
+      "code": "CPO_OPTICAL"
+    },
+    {
+      "code": "DATA_CENTER"
+    },
+    {
+      "code": "DATA_CENTER_POWER"
+    },
+    {
+      "code": "geopolitics"
+    },
+    {
+      "code": "GOLD"
+    },
+    {
+      "code": "HBM_MEMORY"
+    },
+    {
+      "code": "LIQUID_COOLING"
+    },
+    {
+      "code": "LITHIUM"
+    },
+    {
+      "code": "oil_energy"
+    },
+    {
+      "code": "OIL_GAS"
+    },
+    {
+      "code": "OTHER_EXTERNAL"
+    },
+    {
+      "code": "PCB_SERVER"
+    },
+    {
+      "code": "RARE_EARTH"
+    },
+    {
+      "code": "ROBOTICS"
+    },
+    {
+      "code": "SEMICONDUCTOR"
+    },
+    {
+      "code": "SOLAR"
+    }
+  ]
+}

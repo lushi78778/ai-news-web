@@ -1,0 +1,92 @@
+{
+  "success": true,
+  "date": "2026-04-29",
+  "count": 5,
+  "summary": {
+    "total": 5,
+    "by_direction": {
+      "positive": 3,
+      "negative": 2
+    },
+    "by_theme": {
+      "GOLD": 1,
+      "LITHIUM": 1,
+      "SEMICONDUCTOR": 1,
+      "COPPER": 1,
+      "ROBOTICS": 1
+    },
+    "high_impact": 5
+  },
+  "data": [
+    {
+      "event_id": "CATALYST-2026-04-29-004",
+      "title": "美联储维持利率不变 鲍威尔称关税不确定性支撑黄金避险需求",
+      "summary": "【事实】4月29日美联储联邦公开市场委员会（FOMC）宣布维持联邦基金利率在4.25%-4.50%区间不变，符合预期。美联储主席鲍威尔在新闻发布会上表示，全球贸易政策不确定性\"显著上升\"，这是美联储维持利率不变的主要考量。当被问及关税对通胀影响时，鲍威尔强调\"密切关注\"，但未给出明确的降息时间表。黄金在鲍威尔讲话期间涨至3480美元。【影响】美联储观望立场和贸易不确定性表述强化黄金避险逻辑，降息预期延后但未消除。全球贸易摩擦升级可能推动更多资金流入黄金等避险资产。中国央行购金节奏有望维持。【限制】美联储强调\"依赖数据\"，若后续通胀降幅超预期则降息窗口可能提前。市场担忧\"滞胀\"风险，黄金突破3500美元仍需新的催化剂。",
+      "direction": "positive",
+      "importance": 4,
+      "external_theme": "GOLD",
+      "event_type": "price",
+      "source": "Bloomberg News",
+      "source_url": "https://www.bloomberg.com/markets",
+      "event_time_utc8": "2026-04-29T06:00:00.000Z",
+      "usable_trade_date": "2026-04-28T16:00:00.000Z",
+      "mentioned_tickers": "GOLD,GLD,600489.SH,600547.SH"
+    },
+    {
+      "event_id": "CATALYST-2026-04-29-003",
+      "title": "天齐锂业Q1净利润同比扭亏 锂价反弹推动盈利大幅改善",
+      "summary": "【事实】天齐锂业4月29日发布2026年一季度财报，实现归母净利润18.5亿元，同比扭亏（上年同期亏损8.2亿元），环比增长210%。业绩改善主要因碳酸锂价格从上年同期约10万元/吨回升至12万元以上，同时公司澳大利亚Greenbushes锂辉石矿产量创单季新高。【影响】天齐锂业盈利大幅改善为锂行业周期底部反转提供重要信号。锂矿企业盈利弹性在高锂价环境下将充分释放。绿色矿山和盐湖提锂龙头有望陆续交出亮眼季报，提振锂板块投资信心。【限制】天齐锂业海外资产（SQM股权）面临智利政策风险。全年锂价走势仍有不确定性，需持续跟踪新能源车销量和储能需求增长节奏。",
+      "direction": "positive",
+      "importance": 4,
+      "external_theme": "LITHIUM",
+      "event_type": "earnings",
+      "source": "MINING.COM",
+      "source_url": "https://www.mining.com/category/lithium/",
+      "event_time_utc8": "2026-04-29T02:30:00.000Z",
+      "usable_trade_date": "2026-04-28T16:00:00.000Z",
+      "mentioned_tickers": "002466.SZ,002460.SZ,000792.SZ,000408.SZ"
+    },
+    {
+      "event_id": "CATALYST-2026-04-29-002",
+      "title": "美国参议院通过《芯片法案》修正案 加强对中国成熟制程芯片进口审查",
+      "summary": "【事实】4月29日，美国参议院通过《2022芯片与科学法案》修正案，新增条款要求对进口自中国的成熟制程（28nm及以上）芯片加强国家安全审查。若发现中国成熟制程芯片存在\"产能过剩导致市场扭曲\"或\"军事用途\"风险，总统有权征收额外关税或实施进口限制。该修正案还将进一步收紧对美国半导体企业在中国投资的限制。【影响】成熟制程芯片出口面临新壁垒，中国晶圆代工企业（中芯国际、华虹半导体）的海外市场拓展受限。部分依赖中国成熟制程芯片的美国下游产业（汽车、家电）面临成本上升。长期看将进一步催化中国半导体\"去美化\"和成熟制程自主。【限制】修正案需经众议院通过和总统签署。成熟制程芯片来源替代难度大，美国相关行业可能游说反对。中国半导体出口竞争力仍在提升。",
+      "direction": "negative",
+      "importance": 4,
+      "external_theme": "SEMICONDUCTOR",
+      "event_type": "policy",
+      "source": "财联社",
+      "source_url": "https://www.cls.cn/telegraph",
+      "event_time_utc8": "2026-04-29T00:00:00.000Z",
+      "usable_trade_date": "2026-04-28T16:00:00.000Z",
+      "mentioned_tickers": "SMIC,TSM,UMC,688981.SH,600745.SH,688396.SH"
+    },
+    {
+      "event_id": "CATALYST-2026-04-29-001",
+      "title": "LME铜价单日暴跌3% 因Escondida铜矿罢工调解取得突破性进展",
+      "summary": "【事实】4月29日伦敦金属交易所（LME）三个月期铜暴跌3%至10500美元/吨以下，创一个月来最大单日跌幅。导火索是智利Escondida铜矿工会同意进入政府调解后，双方就薪资方案初步达成框架协议，罢工威胁暂时解除。此前铜价因罢工担忧获得明显溢价。【影响】罢工风险解除使铜价短期回落，但全球铜低库存和供需缺口的基本面未变，铜价调整后可能获得支撑。铜矿企业股票短期承压，但铜价回落有助于铜加工企业成本改善。【限制】Escondida最终合约仍需工会全体投票通过。全球铜库存在历史低位，任何新的供给扰动都将重新点燃涨价预期。",
+      "direction": "negative",
+      "importance": 4,
+      "external_theme": "COPPER",
+      "event_type": "price",
+      "source": "MINING.COM",
+      "source_url": "https://www.mining.com/category/copper/",
+      "event_time_utc8": "2026-04-28T22:00:00.000Z",
+      "usable_trade_date": "2026-04-28T16:00:00.000Z",
+      "mentioned_tickers": "BHP,FCX,SCCO,000630.SZ,600362.SH"
+    },
+    {
+      "event_id": "CATALYST-2026-04-29-005",
+      "title": "中国设立国家级人形机器人创新中心 首期注资50亿元",
+      "summary": "【事实】4月29日，中国工信部宣布在北京设立国家级人形机器人创新中心，首期注册资金50亿元人民币，由工信部、北京市政府及产业链龙头企业（华为、比亚迪、傅利叶智能等）联合出资。创新中心将聚焦人形机器人整机平台、核心部件（高扭矩密度关节、灵巧手）、运动控制算法等共性关键技术攻关。【影响】政策层面大力支持人形机器人产业发展，产业标准化和协同创新的平台化建设加速。核心部件和关键技术的突破将降低国内人形机器人产业成本，加速商业化进程。创新中心机制有利于产学研协同，缩短技术转化周期。【限制】创新中心的实际产出和产业化转化效率有待观察。人形机器人的商业场景尚在早期探索阶段，距离大规模普及仍需较长时间和持续投资。",
+      "direction": "positive",
+      "importance": 3,
+      "external_theme": "ROBOTICS",
+      "event_type": "policy",
+      "source": "财联社 (CCTV/Xinhua)",
+      "source_url": "https://www.xinhuanet.com/fortune/",
+      "event_time_utc8": "2026-04-29T08:00:00.000Z",
+      "usable_trade_date": "2026-04-28T16:00:00.000Z",
+      "mentioned_tickers": "300124.SZ,688160.SH,002472.SZ,688017.SH,002230.SZ"
+    }
+  ]
+}

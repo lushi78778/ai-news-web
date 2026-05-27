@@ -1,0 +1,105 @@
+{
+  "success": true,
+  "date": "2026-04-06",
+  "count": 6,
+  "summary": {
+    "total": 6,
+    "by_direction": {
+      "positive": 6
+    },
+    "by_theme": {
+      "ROBOTICS": 1,
+      "SEMICONDUCTOR": 2,
+      "RARE_EARTH": 1,
+      "OIL_GAS": 1,
+      "LITHIUM": 1
+    },
+    "high_impact": 6
+  },
+  "data": [
+    {
+      "event_id": "CATALYST-2026-04-06-006",
+      "title": "TrendForce预测2026年中国人形机器人产量将激增94% 产业链备货加速",
+      "summary": "【事实】TrendForce研报预测2026年中国人形机器人产量将同比增长94%，得益于政策支持、技术突破和供应链成熟。多家中国科技企业已进入人形机器人样机测试阶段，核心零部件国产化率持续提升。【影响】人形机器人量产预期大幅上修，利好精密减速器、伺服系统、传感器、AI芯片等核心零部件环节。量产规模化后有望带动成本下降，进一步刺激下游应用需求。【限制】94%增速为预测值，实际产量取决于技术突破和成本控制进展。人形机器人商业化场景（工业/服务）仍需验证。",
+      "direction": "positive",
+      "importance": 4,
+      "external_theme": "ROBOTICS",
+      "event_type": "product",
+      "source": "T rendForce, SemiEngineering",
+      "source_url": "https://www.trendforce.com/presscenter/news/20260409-13007.html",
+      "event_time_utc8": "2026-04-06T08:00:00.000Z",
+      "usable_trade_date": "2026-04-05T16:00:00.000Z",
+      "mentioned_tickers": "300124.SZ,002050.SZ,688017.SH"
+    },
+    {
+      "event_id": "CATALYST-2026-04-06-005",
+      "title": "台积电获日本政府批准 将在熊本第二工厂引入3nm制程 预计2028年量产",
+      "summary": "【事实】台积电获得日本政府批准，在熊本第二工厂部署3nm制程技术，预计2028年实现量产。这是台积电在日本的最先进制程布局，将显著提升日本半导体制造能力。【影响】台积电3nm出海标志先进制程全球化布局加速，日本半导体制造能力获重大提升。利好台积电供应链设备材料厂商，以及日本本土半导体设备材料企业。【限制】3nm量产时间表在2028年，仍存不确定性。海外3nm良率和成本控制能力需验证。地缘政治风险（台湾海峡局势）仍是长期不确定因素。",
+      "direction": "positive",
+      "importance": 4,
+      "external_theme": "SEMICONDUCTOR",
+      "event_type": "policy",
+      "source": "Focus Taiwan, Nikkei, SemiEngineering",
+      "source_url": "https://focustaiwan.tw/business/202603310027",
+      "event_time_utc8": "2026-04-06T07:00:00.000Z",
+      "usable_trade_date": "2026-04-05T16:00:00.000Z",
+      "mentioned_tickers": "TSM,ASML,AMAT"
+    },
+    {
+      "event_id": "CATALYST-2026-04-06-003",
+      "title": "英特尔花142亿美元回购爱尔兰Fab34合资股权 强化先进制程产能控制",
+      "summary": "【事实】Intel宣布以142亿美元回购Apollo持有的爱尔兰Fab34工厂49%的股权。该工厂采用Intel 4和Intel 3工艺技术，是Intel在先进制程领域的关键资产。【影响】Intel全资掌控爱尔兰先进制程工厂，表明其IDM 2.0战略深化和先进制程投入决心。142亿美元的回购规模彰显Intel对本土制造能力的重视，利好Intel代工服务前景。【限制】Intel正经历转型阵痛期，与台积电在先进制程方面仍存在差距。142亿美元的巨额支出对其现金流构成压力，需观察后续盈利能力和客户获取进展。",
+      "direction": "positive",
+      "importance": 4,
+      "external_theme": "SEMICONDUCTOR",
+      "event_type": "capacity",
+      "source": "SemiEngineering, Intel Newsroom",
+      "source_url": "https://newsroom.intel.com/corporate/intel-repurchase-49-equity-interest-ireland-fab-joint-venture",
+      "event_time_utc8": "2026-04-06T03:00:00.000Z",
+      "usable_trade_date": "2026-04-05T16:00:00.000Z",
+      "mentioned_tickers": "INTC,TSM"
+    },
+    {
+      "event_id": "CATALYST-2026-04-06-002",
+      "title": "中国商务部发布新版《稀土管理条例》实施细则 强化全产业链管理",
+      "summary": "【事实】中国商务部会同工信部发布新版《稀土管理条例》实施细则，进一步规范稀土开采、冶炼分离、出口等环节管理。条例强调保障国家资源安全和产业链供应链稳定，推动稀土产业高质量发展。【影响】稀土管理条例细则出台体现国家对稀土战略性资源管理的持续加强，有利于规范行业秩序、提升产业集中度。中长期利好具有合法矿权和全产业链优势的龙头稀土企业。【限制】细则实施对行业短期调整影响有限，实际执法力度和效果需观察。国际市场对中国稀土出口限制的担忧情绪已在前期价格中反映。",
+      "direction": "positive",
+      "importance": 4,
+      "external_theme": "RARE_EARTH",
+      "event_type": "policy",
+      "source": "中国商务部、工信部",
+      "source_url": "https://www.mofcom.gov.cn/",
+      "event_time_utc8": "2026-04-06T02:00:00.000Z",
+      "usable_trade_date": "2026-04-05T16:00:00.000Z",
+      "mentioned_tickers": "600010.SH,600392.SH,600259.SH"
+    },
+    {
+      "event_id": "CATALYST-2026-04-06-001",
+      "title": "台湾半导体产业协会吁请政府建立氦气和液化天然气战略储备 应对中东危机",
+      "summary": "【事实】台湾半导体产业协会(TSIA)正式向政府提出请求，呼吁建立氦气和液化天然气(LNG)的战略储备，并支持重启核电，以应对中东冲突持续对能源和关键原材料供应造成的威胁。台湾95%以上能源依赖进口。【影响】台湾、韩国等半导体制造重镇能源安全风险凸显，利好核电重启和替代能源方案。LNG和氦气储备需求将拉动相关储运设备和气体供应企业订单。台湾核电重启预期利好核电概念。【限制】建立战略储备需要时间和巨额资金投入。核电重启面临政治和环保阻力。",
+      "direction": "positive",
+      "importance": 4,
+      "external_theme": "OIL_GAS",
+      "event_type": "geopolitical",
+      "source": "Nikkei Asia, SemiEngineering",
+      "source_url": "https://semiengineering.com/chip-industry-week-in-review-133/",
+      "event_time_utc8": "2026-04-06T00:00:00.000Z",
+      "usable_trade_date": "2026-04-05T16:00:00.000Z",
+      "mentioned_tickers": "TSM,000660.KS,2303.TW"
+    },
+    {
+      "event_id": "CATALYST-2026-04-06-004",
+      "title": "碳酸锂价格企稳反弹 新能源车渗透率持续提升拉动需求",
+      "summary": "【事实】经过前期深度调整，碳酸锂价格在4月初出现企稳反弹迹象。国内新能源乘用车渗透率持续提升，3月新能源车销量保持同比增长。储能电池需求也在加速释放。【影响】锂价企稳有利于锂矿和锂盐企业盈利修复。新能源车和储能双轮驱动下锂需求长期增长趋势不变，短期价格波动更多反映供给端产能释放节奏。【限制】锂供给端新增产能仍在释放，澳大利亚和南美盐湖扩产项目持续推进。锂价反弹高度取决于需求增速与供给释放匹配程度。",
+      "direction": "positive",
+      "importance": 3,
+      "external_theme": "LITHIUM",
+      "event_type": "supply",
+      "source": "SMM, 中国汽车工业协会",
+      "source_url": "https://www.caam.org.cn/",
+      "event_time_utc8": "2026-04-06T06:00:00.000Z",
+      "usable_trade_date": "2026-04-05T16:00:00.000Z",
+      "mentioned_tickers": "002460.SZ,002466.SZ,300750.SZ"
+    }
+  ]
+}

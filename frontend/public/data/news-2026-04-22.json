@@ -1,0 +1,92 @@
+{
+  "success": true,
+  "date": "2026-04-22",
+  "count": 5,
+  "summary": {
+    "total": 5,
+    "by_direction": {
+      "positive": 4,
+      "negative": 1
+    },
+    "by_theme": {
+      "HBM_MEMORY": 1,
+      "AI_HARDWARE": 1,
+      "ROBOTICS": 1,
+      "COPPER": 1,
+      "RARE_EARTH": 1
+    },
+    "high_impact": 5
+  },
+  "data": [
+    {
+      "event_id": "CATALYST-2026-04-22-002",
+      "title": "SK海力士宣布HBM4量产进度提前至2026年Q3 带宽提升4倍",
+      "summary": "【事实】SK海力士4月22日宣布，将HBM4（第六代高带宽内存）的量产时间从原计划的2026年底提前至2026年第三季度。HBM4采用先进封装技术，支持2048位接口，单芯片带宽较HBM3E提升4倍，功耗降低30%。公司已获英伟达下一代Rubin架构GPU的HBM4独家供应协议。【影响】HBM4量产提前将显著提升AI大模型训练效率，支撑英伟达下一代GPU算力跃升。SK海力士在HBM领域持续领先，对三星和美光的竞争压力加大。HBM产业链（先进封装材料、TSV设备、测试）需求进一步扩张。【限制】HBM4良率爬坡仍面临技术挑战，初期产能有限。三星电子正加速HBM4开发并获英伟达认证，竞争格局存在变数。HBM投资持续高企，若AI需求增速放缓存在产能过剩风险。",
+      "direction": "positive",
+      "importance": 5,
+      "external_theme": "HBM_MEMORY",
+      "event_type": "product",
+      "source": "SK Hynix IR",
+      "source_url": "https://www.skhynix.com/pr/pressRelease.do",
+      "event_time_utc8": "2026-04-22T02:30:00.000Z",
+      "usable_trade_date": "2026-04-21T16:00:00.000Z",
+      "mentioned_tickers": "000660.KS,SMSD.IL,MU,NVDA,AMD,002371.SZ,688012.SH"
+    },
+    {
+      "event_id": "CATALYST-2026-04-22-005",
+      "title": "微软紧急追加AI服务器采购订单 2026年H2服务器出货量上调30%",
+      "summary": "【事实】4月22日产业链消息，微软向台系服务器代工厂发出2026年下半年AI服务器追加订单，将出货量目标较此前规划上调30%。追加订单主要涉及搭载英伟达B200和Rubin架构GPU的AI服务器，用于支撑Azure云服务和Copilot需求增长。微软2026财年AI基础设施资本开支已上调至850亿美元。【影响】微软紧急追加订单印证AI算力需求持续爆发，AI服务器供应链（ODM、散热、PCB、高速连接器）订单能见度进一步延长。台系代工厂广达、纬创、英业达等产能利用率有望满载。【限制】GPU芯片供应仍是最大瓶颈，英伟达Rubin架构芯片量产进度不确定将制约服务器交付周期。数据中心电力供给瓶颈和审批周期也是潜在约束。",
+      "direction": "positive",
+      "importance": 4,
+      "external_theme": "AI_HARDWARE",
+      "event_type": "demand",
+      "source": "TrendForce",
+      "source_url": "https://www.trendforce.com/news/",
+      "event_time_utc8": "2026-04-22T08:30:00.000Z",
+      "usable_trade_date": "2026-04-21T16:00:00.000Z",
+      "mentioned_tickers": "MSFT,NVDA,AMD,2382.TW,3231.TW,2356.TW,300502.SZ"
+    },
+    {
+      "event_id": "CATALYST-2026-04-22-004",
+      "title": "特斯拉Optimus人形机器人在上海超级工厂开始执行物料搬运任务",
+      "summary": "【事实】4月22日，特斯拉宣布其Optimus人形机器人在上海超级工厂已开始执行实际生产任务，负责产线间的物料搬运和部件分拣工作。Optimus目前可连续工作8小时，识别准确率99.2%，运动速度较上一代提升30%。此前特斯拉已在加州弗里蒙特工厂进行试验性部署，本次为首次在中国工厂投入实用。【影响】特斯拉人形机器人从实验室走向实际工厂产线，标志着人形机器人商业化的里程碑。中国作为全球最大制造业基地，是人形机器人应用的最大潜在市场。Optimus实用化加速将带动国产人形机器人产业链（减速器、伺服电机、传感器、灵巧手）发展。【限制】Optimus当前执行的任务仍较为简单，复杂精密装配能力有限，距离通用性目标还有差距。特斯拉面临的人形机器人规模化降本挑战仍大。",
+      "direction": "positive",
+      "importance": 4,
+      "external_theme": "ROBOTICS",
+      "event_type": "product",
+      "source": "TechCrunch",
+      "source_url": "https://techcrunch.com/2026/04/22/tesla-optimus/",
+      "event_time_utc8": "2026-04-22T07:00:00.000Z",
+      "usable_trade_date": "2026-04-21T16:00:00.000Z",
+      "mentioned_tickers": "TSLA,688160.SH,002472.SZ,300124.SZ,688017.SH"
+    },
+    {
+      "event_id": "CATALYST-2026-04-22-001",
+      "title": "全球最大铜矿Escondida工会投票否决新合约 罢工风险升级",
+      "summary": "【事实】4月22日，必和必拓旗下智利Escondida铜矿工会以78%反对票否决了公司提出的新劳动合同方案，工会要求加薪幅度和福利待遇高于公司方案15%。Escondida铜矿年产量约120万吨，占全球铜矿产量的约5.5%。工会宣布若谈判破裂将于5月初发起罢工。【影响】Escondida铜矿潜在罢工将显著冲击全球铜精矿供应，在当前全球铜库存处于历史低位的情况下可能推动铜价大幅上涨。国内铜冶炼企业原料供应紧张加剧，加工费（TC/RC）可能进一步承压下行。【限制】罢工需经5天政府调解期，仍有谈判达成空间。智利劳工法允许政府在特定情况下强制调解。2017年和2021年Escondida罢工影响产量的教训促使双方更倾向于避免长期罢工。",
+      "direction": "negative",
+      "importance": 4,
+      "external_theme": "COPPER",
+      "event_type": "supply",
+      "source": "MINING.COM",
+      "source_url": "https://www.mining.com/category/copper/",
+      "event_time_utc8": "2026-04-22T01:00:00.000Z",
+      "usable_trade_date": "2026-04-21T16:00:00.000Z",
+      "mentioned_tickers": "BHP,FCX,SCCO,000630.SZ,600362.SH"
+    },
+    {
+      "event_id": "CATALYST-2026-04-22-003",
+      "title": "稀土价格指数创年内新高 镨钕氧化物涨至52万元/吨",
+      "summary": "【事实】4月22日中国稀土价格指数报收316.5点，创2026年以来新高。其中氧化镨钕价格涨至52万元/吨，较月初上涨8%；氧化镝涨至285万元/吨，氧化铽涨至980万元/吨。上涨驱动来自：一是稀土管理条例细则出台强化供给收缩预期；二是新能源汽车、风电和机器人用钕铁硼磁材订单回暖；三是缅甸矿进口受政策核查影响阶段性减少。【影响】稀土价格上涨直接增厚上游企业利润弹性，北方稀土和中国稀土集团尤为受益。钕铁硼磁材企业成本端承压但可通过产品涨价传导。人形机器人产业化为高性能钕铁硼打开新的增量需求空间。【限制】稀土价格已处较高水平，下游磁材企业议价能力增强。缅甸矿进口影响为阶段性因素。长期来看，稀土资源整合后价格波动区间趋于收窄。",
+      "direction": "positive",
+      "importance": 3,
+      "external_theme": "RARE_EARTH",
+      "event_type": "price",
+      "source": "MINING.COM",
+      "source_url": "https://www.mining.com/category/rare-earth/",
+      "event_time_utc8": "2026-04-22T05:00:00.000Z",
+      "usable_trade_date": "2026-04-21T16:00:00.000Z",
+      "mentioned_tickers": "600010.SH,000831.SZ,300748.SZ,600366.SH,000970.SZ"
+    }
+  ]
+}

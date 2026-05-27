@@ -1,0 +1,91 @@
+{
+  "success": true,
+  "date": "2026-04-20",
+  "count": 5,
+  "summary": {
+    "total": 5,
+    "by_direction": {
+      "positive": 5
+    },
+    "by_theme": {
+      "GOLD": 1,
+      "OIL_GAS": 1,
+      "LITHIUM": 1,
+      "RARE_EARTH": 1,
+      "COPPER": 1
+    },
+    "high_impact": 5
+  },
+  "data": [
+    {
+      "event_id": "CATALYST-2026-04-20-002",
+      "title": "国际金价突破3400美元 全球贸易摩擦升级推动避险需求",
+      "summary": "【事实】4月20日亚洲早盘，现货黄金突破3400美元/盎司关口，再创历史新高。本轮上涨主要驱动因素包括：美国最新一轮对华关税升级引发全球贸易摩擦加剧、美元指数走弱至99下方、全球央行持续增持黄金储备。中国央行连续第18个月增持黄金储备。【影响】金价持续创新高显著利好黄金采掘企业盈利，国内黄金股受追捧。全球央行购金趋势强化黄金长期配置价值，黄金ETF资金持续净流入。【限制】金价短期涨幅过快存在技术性回调风险。美国若调整关税政策或就业数据超预期可能引发金价震荡。COMEX黄金期货多头持仓已处高位。",
+      "direction": "positive",
+      "importance": 4,
+      "external_theme": "GOLD",
+      "event_type": "price",
+      "source": "Reuters",
+      "source_url": "https://www.reuters.com/markets/commodities/gold/",
+      "event_time_utc8": "2026-04-20T01:30:00.000Z",
+      "usable_trade_date": "2026-04-19T16:00:00.000Z",
+      "mentioned_tickers": "GOLD,600489.SH,600547.SH,002155.SZ"
+    },
+    {
+      "event_id": "CATALYST-2026-04-20-001",
+      "title": "国际油价突破85美元 受OPEC+减产执行率提升及中东局势支撑",
+      "summary": "【事实】2026年4月20日，国际油价延续上涨态势，布伦特原油突破85美元/桶关口，WTI原油站上81美元/桶。OPEC+最新数据显示3月减产执行率提升至108%，沙特和俄罗斯延续额外自愿减产。此外中东地缘局势持续紧张，霍尔木兹海峡航运保险费用攀升。【影响】油价走高利好上游油气开采企业盈利预期，中国\"三桶油\"直接受益，同时推动能源替代和新能源加速发展。高油价环境下油气勘探开发资本开支有望扩张，利好油服和设备板块。【限制】高油价可能加剧全球通胀压力，主要消费国或联合施压OPEC+增产。美国页岩油可能加速复产对油价形成天花板。",
+      "direction": "positive",
+      "importance": 4,
+      "external_theme": "OIL_GAS",
+      "event_type": "price",
+      "source": "OilPrice (Reuters)",
+      "source_url": "https://www.reuters.com/business/energy/",
+      "event_time_utc8": "2026-04-20T00:30:00.000Z",
+      "usable_trade_date": "2026-04-19T16:00:00.000Z",
+      "mentioned_tickers": "XOM,CVX,CNOOC,601857.SH,600028.SH"
+    },
+    {
+      "event_id": "CATALYST-2026-04-20-005",
+      "title": "碳酸锂价格反弹突破12万元/吨 澳矿停产效应持续传导",
+      "summary": "【事实】4月20日国内电池级碳酸锂价格反弹至12.2万元/吨，较月初上涨8%。澳大利亚锂矿巨头Liontown Resources宣布其Kathleen Valley项目第三条产线推迟投产，Core Lithium的Finniss项目仍处停产状态，供给端收缩信号明确。下游正极材料和电池厂补库需求启动，磷酸铁锂排产环比增长。【影响】锂价持续反弹改善锂矿企业盈利前景，国内锂盐龙头（赣锋锂业、天齐锂业）直接受益。澳矿供给收缩趋势明确，国内盐湖提锂企业（盐湖股份、藏格矿业）的相对成本优势凸显。【限制】锂价能否持续上行取决于下游需求强度。二季度新能源汽车终端销量若不及预期将制约锂价反弹空间。非洲矿和南美盐湖新增产能仍在释放，中长期供给过剩格局未根本改变。",
+      "direction": "positive",
+      "importance": 3,
+      "external_theme": "LITHIUM",
+      "event_type": "price",
+      "source": "MINING.COM",
+      "source_url": "https://www.mining.com/category/lithium/",
+      "event_time_utc8": "2026-04-20T06:00:00.000Z",
+      "usable_trade_date": "2026-04-19T16:00:00.000Z",
+      "mentioned_tickers": "ALB,SQM,002460.SZ,002466.SZ,000792.SZ,000408.SZ"
+    },
+    {
+      "event_id": "CATALYST-2026-04-20-004",
+      "title": "工信部发布稀土管理条例实施细则 强化总量控制和战略资源管理",
+      "summary": "【事实】工业和信息化部4月20日正式发布《稀土管理条例实施细则》，进一步细化稀土开采和冶炼分离总量控制指标管理，明确建立稀土产品追溯体系，并加大对违法违规行为的处罚力度。细则还鼓励稀土高端应用技术研发和产业化。【影响】稀土管理条例细则的出台有利于规范行业秩序、保护战略资源安全。供给端总量控制预期进一步收紧，有望支撑稀土价格。具备合法稀土开采和冶炼分离指标的龙头企业（北方稀土、中国稀土集团）受益于行业整合和定价权提升。【限制】细则对市场的影响需观察执行力度。短期稀土价格受下游需求（新能源汽车、风电）复苏节奏制约，若磁材需求恢复不及预期，价格上涨空间有限。",
+      "direction": "positive",
+      "importance": 3,
+      "external_theme": "RARE_EARTH",
+      "event_type": "policy",
+      "source": "财联社 (CCTV/Xinhua)",
+      "source_url": "https://finance.sina.com.cn/roll/2026-04-20/",
+      "event_time_utc8": "2026-04-20T03:00:00.000Z",
+      "usable_trade_date": "2026-04-19T16:00:00.000Z",
+      "mentioned_tickers": "600010.SH,000831.SZ,600259.SH,300748.SZ"
+    },
+    {
+      "event_id": "CATALYST-2026-04-20-003",
+      "title": "伦铜突破10500美元 中国电网投资及AI数据中心铜需求预期提振",
+      "summary": "【事实】伦敦金属交易所（LME）铜价4月20日盘中突破10500美元/吨，创2024年以来新高。中国国家电网公布2026年电网投资计划同比增长12%，同时AI数据中心建设加速带动电力铜缆需求。全球铜矿供应端扰动持续，智利和秘鲁部分铜矿因劳资谈判和矿石品位下降面临减产。【影响】铜价上涨有利于国内铜矿采选企业盈利改善，铜陵有色、江西铜业等龙头受益。电网投资加码更为铜消费提供中期支撑。铜作为电气化核心金属，能源转型和AI数据中心双重驱动下需求前景向好。【限制】高铜价可能刺激废铜供应增加及下游加工企业成本压力。全球宏观经济不确定性仍存，需求端若放缓将制约铜价上行空间。",
+      "direction": "positive",
+      "importance": 3,
+      "external_theme": "COPPER",
+      "event_type": "price",
+      "source": "MINING.COM",
+      "source_url": "https://www.mining.com/category/copper/",
+      "event_time_utc8": "2026-04-20T02:00:00.000Z",
+      "usable_trade_date": "2026-04-19T16:00:00.000Z",
+      "mentioned_tickers": "FCX,SCCO,000630.SZ,600362.SH,603993.SH"
+    }
+  ]
+}

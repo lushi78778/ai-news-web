@@ -1,0 +1,92 @@
+{
+  "success": true,
+  "date": "2026-05-04",
+  "count": 5,
+  "summary": {
+    "total": 5,
+    "by_direction": {
+      "positive": 4,
+      "neutral": 1
+    },
+    "by_theme": {
+      "AI_HARDWARE": 1,
+      "GOLD": 1,
+      "OIL_GAS": 1,
+      "LITHIUM": 1,
+      "COPPER": 1
+    },
+    "high_impact": 5
+  },
+  "data": [
+    {
+      "event_id": "CATALYST-2026-05-04-004",
+      "title": "华为昇腾910C量产在即 获国内运营商和互联网巨头批量订单",
+      "summary": "【事实】5月4日产业链消息，华为自研AI芯片昇腾910C已完成量产验证，即将在2026年Q2末进入批量生产阶段。中国移动、中国电信和百度、字节跳动已完成测试并下达首批批量订单，总量约50万片。昇腾910C采用7nm增强制程，FP16算力达320TFLOPS，接近英伟达H100水平。【影响】昇腾910C量产标志着国产AI芯片实现从\"可用\"到\"好用\"的跨越，对美出口管制下的中国AI算力自主供给能力大幅提升。华为鲲鹏/昇腾产业链（PCB、封装测试、散热）订单量增长确定性提高。【限制】昇腾910C制程节点落后于英伟达H100/B200的4nm，能效和集群互联性能仍有差距。产能受制于国内代工先进制程产能有限。",
+      "direction": "positive",
+      "importance": 4,
+      "external_theme": "AI_HARDWARE",
+      "event_type": "order",
+      "source": "财联社",
+      "source_url": "https://www.cls.cn/telegraph",
+      "event_time_utc8": "2026-05-04T05:00:00.000Z",
+      "usable_trade_date": "2026-05-03T16:00:00.000Z",
+      "mentioned_tickers": "002049.SZ,000063.SZ,688396.SH,603501.SH,600745.SH"
+    },
+    {
+      "event_id": "CATALYST-2026-05-04-002",
+      "title": "节后沪金开盘冲高至3600元/克 全球央行购金四月份达120吨",
+      "summary": "【事实】5月4日中国市场节后首日，沪金期货主力合约开盘冲高至3600元/克的阶段性高点，假期期间国际金价维持在3480美元附近震荡。世界黄金协会更新的数据显示，四月份全球央行净购金量达120吨，其中中国央行增持35吨，印度央行增持18吨，土耳其央行增持15吨。【影响】央行购金数据为黄金提供持续的下行支撑。中国投资者在假期期间避险需求增加，黄金ETF节后扩容趋势持续。国内金矿企业Q2盈利预期乐观。黄金饰品和投资金币消费在节日期间呈两极化：投资需求旺，首饰消费分化。【限制】沪金价格高于国际金价折算，反映一定溢价。市场对3500美元关口突破后的金价走势存在分歧。",
+      "direction": "positive",
+      "importance": 4,
+      "external_theme": "GOLD",
+      "event_type": "price",
+      "source": "Reuters",
+      "source_url": "https://www.reuters.com/markets/commodities/gold/",
+      "event_time_utc8": "2026-05-04T02:00:00.000Z",
+      "usable_trade_date": "2026-05-03T16:00:00.000Z",
+      "mentioned_tickers": "GOLD,600489.SH,600547.SH,002155.SZ,600612.SH"
+    },
+    {
+      "event_id": "CATALYST-2026-05-04-005",
+      "title": "国际油价节后小幅回落至84美元 市场等待OPEC+5月会议结果",
+      "summary": "【事实】5月4日亚洲交易时段，布伦特原油小幅回落至84美元/桶，较节前跌约1美元。市场在OPEC+5月会议前持谨慎态度，消息人士称主要成员国对增产幅度存在分歧。沙特倾向维持当前减产框架，而阿联酋和伊拉克则主张有序增产。俄罗斯原油出口量4月略有下降。【影响】油价短期缺乏明确方向，OPEC+会议结果将决定5月油价走势。若维持当前减产则油价有望维持85美元附近，若增产则可能回调至80美元。中国炼厂采购节奏受油价波动影响。【限制】OPEC+会议结果存在不确定性。全球宏观风险偏好和美元走势也影响油价。IEA和OPEC月报对需求预测可能引发新一轮交易。",
+      "direction": "neutral",
+      "importance": 3,
+      "external_theme": "OIL_GAS",
+      "event_type": "price",
+      "source": "OilPrice (Reuters)",
+      "source_url": "https://www.reuters.com/business/energy/",
+      "event_time_utc8": "2026-05-04T06:30:00.000Z",
+      "usable_trade_date": "2026-05-03T16:00:00.000Z",
+      "mentioned_tickers": "XOM,CVX,CNOOC,601857.SH,600028.SH"
+    },
+    {
+      "event_id": "CATALYST-2026-05-04-003",
+      "title": "碳酸锂节后首日站上13万元/吨 供需改善预期推动",
+      "summary": "【事实】5月4日广期所碳酸锂期货主力合约节后首日上涨2.3%至13.05万元/吨，近一个月累计涨幅超15%。现货市场电池级碳酸锂报价13-13.2万元/吨，百川盈孚数据显示样本企业库存较月初下降8%。锂电池产业链排产数据向好，5月排产环比增长10%。【影响】碳酸锂价格站稳13万元关口确认锂行业底部反转预期强化。锂矿企业Q2盈利有望环比大幅改善，前期深度调整的锂板块估值修复空间打开。下游正极材料和电池企业原料成本压力可控。【限制】13-15万元/吨区间是产业链各环节相对可接受的价格区间，进一步上行需需求端持续超预期。澳大利亚锂矿复产预期和非洲矿投产进度仍为潜在供给压力。",
+      "direction": "positive",
+      "importance": 3,
+      "external_theme": "LITHIUM",
+      "event_type": "price",
+      "source": "MINING.COM",
+      "source_url": "https://www.mining.com/category/lithium/",
+      "event_time_utc8": "2026-05-04T03:00:00.000Z",
+      "usable_trade_date": "2026-05-03T16:00:00.000Z",
+      "mentioned_tickers": "ALB,SQM,002460.SZ,002466.SZ,000792.SZ,000408.SZ"
+    },
+    {
+      "event_id": "CATALYST-2026-05-04-001",
+      "title": "节后首日沪铜跳空高开大涨2.5% 全球铜库存续创新低",
+      "summary": "【事实】5月4日中国市场节后首个交易日，沪铜主力合约跳空高开，收盘大涨2.5%至78500元/吨上方。假期期间LME铜价上涨1.8%。全球三大交易所（LME、SHFE、COMEX）铜库存合计降至18.5万吨，为2012年以来最低水平。国内铜下游加工企业节后补库需求旺盛，现货升水扩大至400元/吨。【影响】铜价大涨利好国内铜矿企业和冶炼企业Q2盈利预期。低库存和升水扩大表明铜基本面供需矛盾突出，铜价中期支撑强劲。铜板块配置价值凸显，沪铜期货多头持仓价值增长。【限制】沪铜单日涨幅偏大，技术面存在获利回吐需求。中国宏观经济数据仍是关键变量。国内铜冶炼企业TC/RC加工费偏低制约利润。",
+      "direction": "positive",
+      "importance": 3,
+      "external_theme": "COPPER",
+      "event_type": "price",
+      "source": "MINING.COM",
+      "source_url": "https://www.mining.com/category/copper/",
+      "event_time_utc8": "2026-05-04T01:30:00.000Z",
+      "usable_trade_date": "2026-05-03T16:00:00.000Z",
+      "mentioned_tickers": "FCX,SCCO,000630.SZ,600362.SH,601899.SH,603993.SH"
+    }
+  ]
+}

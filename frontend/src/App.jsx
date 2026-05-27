@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useCallback } from 'react';
+import { getNewsUrl, IS_STATIC } from './config';
 
 const DIRECTION_COLORS = {
   positive: 'bg-green-500/10 text-green-400 border-green-500/30',
@@ -186,9 +187,14 @@ function App() {
     setLoading(true);
     setError(null);
     try {
-      const res = await fetch(`/api/v2/news?date=${d}`);
+      const url = getNewsUrl(d);
+      const res = await fetch(url);
+      if (!res.ok) {
+        if (IS_STATIC) throw new Error(`该日期无数据 (${d})`);
+        throw new Error(`HTTP ${res.status}`);
+      }
       const json = await res.json();
-      if (!json.success) throw new Error(json.error || 'Unknown error');
+      if (!IS_STATIC && !json.success) throw new Error(json.error || 'Unknown error');
       setData(json);
     } catch (err) {
       setError(err.message);

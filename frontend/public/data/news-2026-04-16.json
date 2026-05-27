@@ -1,0 +1,107 @@
+{
+  "success": true,
+  "date": "2026-04-16",
+  "count": 6,
+  "summary": {
+    "total": 6,
+    "by_direction": {
+      "negative": 1,
+      "positive": 5
+    },
+    "by_theme": {
+      "SEMICONDUCTOR": 1,
+      "COPPER": 1,
+      "LITHIUM": 1,
+      "ROBOTICS": 1,
+      "AI_HARDWARE": 1,
+      "OIL_GAS": 1
+    },
+    "high_impact": 6
+  },
+  "data": [
+    {
+      "event_id": "CATALYST-2026-04-16-003",
+      "title": "ASML发布Q1 2026财报 光刻机交付受氦气短缺和供应链扰动影响 仍维持全年指引",
+      "summary": "【事实】ASML发布2026年第一季度财报。受全球氦气短缺和地缘政治导致的供应链扰动影响，部分光刻机交付节奏有所延迟。但公司维持全年营收展望不变，EUV和High-NA EUV订单保持强劲。【影响】ASML订单和营收预期不变表明半导体制造需求依然坚挺，EUV光刻机需求持续领先。氦气短缺对设备交付的扰动凸显关键材料供应的脆弱性，利好氦气回收和替代技术。【限制】若氦气短缺持续恶化，ASML后续交付可能进一步延迟。High-NA EUV成本和良率的经济性对客户投资回报有影响。",
+      "direction": "negative",
+      "importance": 4,
+      "external_theme": "SEMICONDUCTOR",
+      "event_type": "supply",
+      "source": "ASML, SemiEngineering",
+      "source_url": "https://www.asml.com/en/news/press-releases/2026/q1-2026-financial-results",
+      "event_time_utc8": "2026-04-16T03:00:00.000Z",
+      "usable_trade_date": "2026-04-15T16:00:00.000Z",
+      "mentioned_tickers": "ASML,TSM,INTC,SMSN"
+    },
+    {
+      "event_id": "CATALYST-2026-04-16-006",
+      "title": "中国3月铜进口量环比增长 国内铜消费旺季启动 铜加工企业开工率回升",
+      "summary": "【事实】据中国海关总署数据，3月中国铜进口量环比明显增长。国内铜消费旺季启动，铜加工企业开工率稳步回升。电网投资和新能源建设对铜的需求拉动效应进一步显现。【影响】中国作为全球最大铜消费国，进口增加和开工率回升反映终端需求改善，对铜价构成支撑。旺季叠加电网投资加码和政策支持下，铜消费短期景气度向好。【限制】进口增加存在季节性因素，需关注后续月度数据持续性。全球宏观经济不确定性可能影响铜消费的长期趋势。",
+      "direction": "positive",
+      "importance": 3,
+      "external_theme": "COPPER",
+      "event_type": "demand",
+      "source": "海关总署, SMM",
+      "source_url": "https://www.customs.gov.cn/",
+      "event_time_utc8": "2026-04-16T08:00:00.000Z",
+      "usable_trade_date": "2026-04-15T16:00:00.000Z",
+      "mentioned_tickers": "603993.SH,600362.SH,000630.SZ"
+    },
+    {
+      "event_id": "CATALYST-2026-04-16-005",
+      "title": "中国推出新能源汽车以旧换新补贴政策延续 锂电产业链需求获政策托底",
+      "summary": "【事实】中国商务部等部委联合发布2026年新能源汽车以旧换新补贴延续政策，对符合条件的消费者购买新能源车给予补贴。政策旨在稳定新能源汽车消费，促进产业高质量发展。【影响】政策托底新能源车消费，锂电产业链需求获得中长期支撑。配合充电基础设施建设和农村市场推广，中国新能源车渗透率有望继续提升，带动动力电池和上游锂盐需求。【限制】补贴政策对终端消费的边际刺激效果可能递减。新能源车市场竞争加剧，部分车企盈利压力增大。补贴政策效果需结合地方配套措施综合评估。",
+      "direction": "positive",
+      "importance": 3,
+      "external_theme": "LITHIUM",
+      "event_type": "demand",
+      "source": "中国商务部、发改委",
+      "source_url": "https://www.mofcom.gov.cn/",
+      "event_time_utc8": "2026-04-16T07:00:00.000Z",
+      "usable_trade_date": "2026-04-15T16:00:00.000Z",
+      "mentioned_tickers": "300750.SZ,002594.SZ,002460.SZ"
+    },
+    {
+      "event_id": "CATALYST-2026-04-16-004",
+      "title": "美国Cognichip完成6000万美元A轮融资 Intel CEO加入董事会 AI芯片设计赛道持续火热",
+      "summary": "【事实】AI芯片设计公司Cognichip完成6000万美元A轮融资。Intel CEO Lip-Bu Tan加入公司董事会。该公司采用物理信息AI技术进行芯片设计，旨在加速AI芯片的开发周期。【影响】AI+EDA赛道持续获得资本和技术领袖关注，Intel CEO亲自加入董事会表明该技术方向在行业内的战略价值。物理信息AI在芯片设计中的应用有望提升设计效率和准确性。【限制】A轮阶段公司技术和产品成熟度较低。Cognichip在AI芯片设计EDA领域的差异化优势需实际项目验证。Intel CEO加入更多是战略背书，不等于商业合作。",
+      "direction": "positive",
+      "importance": 3,
+      "external_theme": "ROBOTICS",
+      "event_type": "funding",
+      "source": "SemiEngineering, Cognichip",
+      "source_url": "https://www.cognichip.ai/news/seligman-ventures-leads-cognichips-60m-series-a-to-back-physics-informed-ai-for-chip-design-intel-ceo-lip-bu-tan-and-seligman-ventures-umesh-padval-join-the-board",
+      "event_time_utc8": "2026-04-16T06:00:00.000Z",
+      "usable_trade_date": "2026-04-15T16:00:00.000Z",
+      "mentioned_tickers": "INTC,CDNS,SNPS"
+    },
+    {
+      "event_id": "CATALYST-2026-04-16-002",
+      "title": "EDA和半导体IP 2025年Q4收入55亿美元增长10% 连续多年两位数增长创新引擎强劲",
+      "summary": "【事实】ESD Alliance报告显示，2025年Q4全球EDA和半导体IP收入达55亿美元，同比增长10.3%，延续了多年来两位数增长态势。AI芯片设计复杂性提升推动EDA工具和IP授权需求增长。【影响】EDA行业持续高增长反映半导体行业创新活动活跃，芯片设计复杂度不断提升。AI驱动芯片设计尤其是先进制程SoC的设计投入持续加大，利好EDA三巨头（Cadence/Synopsys/Ansys）。【限制】头部EDA厂商集中度高，增长收益集中于少数公司。地缘政治风险可能影响部分区域的EDA销售。",
+      "direction": "positive",
+      "importance": 3,
+      "external_theme": "AI_HARDWARE",
+      "event_type": "investment",
+      "source": "ESD Alliance, SemiEngineering",
+      "source_url": "https://www.semi.org/en/semi-press-release/esd-alliance-reports-electronic-system-design-industry-posts-5.5-billion-dollars-in-revenue-in-q4-2025",
+      "event_time_utc8": "2026-04-16T02:00:00.000Z",
+      "usable_trade_date": "2026-04-15T16:00:00.000Z",
+      "mentioned_tickers": "CDNS,SNPS,ANSS"
+    },
+    {
+      "event_id": "CATALYST-2026-04-16-001",
+      "title": "全球LNG市场持续偏紧 亚洲现货价格走高 能源安全成为各国战略重点",
+      "summary": "【事实】受中东冲突影响，全球LNG供给持续偏紧，亚洲LNG现货价格走高。台湾、韩国等半导体制造重镇对LNG进口依赖度高，引发能源安全担忧。各国加速能源多元化战略部署，天然气作为过渡能源的需求保持稳定。【影响】LNG价格走高利好上游天然气生产商和LNG运输企业。能源安全焦虑推动LNG长期合同签订和基础设施投资，利好LNG接收站和天然气储运设备。清洁能源转型政策下天然气需求中长期仍有支撑。【限制】LNG价格受季节性因素影响较大，夏季为需求淡季。高价格可能抑制部分价格敏感地区的需求增长。全球LNG液化能力建设持续推进。",
+      "direction": "positive",
+      "importance": 3,
+      "external_theme": "OIL_GAS",
+      "event_type": "demand",
+      "source": "Platts, Kpler",
+      "source_url": "https://www.platts.com/",
+      "event_time_utc8": "2026-04-16T00:00:00.000Z",
+      "usable_trade_date": "2026-04-15T16:00:00.000Z",
+      "mentioned_tickers": "XOM,CVX,600028.SH,601857.SH"
+    }
+  ]
+}

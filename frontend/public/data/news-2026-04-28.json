@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "date": "2026-04-28",
+  "count": 1,
+  "summary": {
+    "total": 1,
+    "by_direction": {
+      "positive": 1
+    },
+    "by_theme": {
+      "SEMICONDUCTOR": 1
+    },
+    "high_impact": 1
+  },
+  "data": [
+    {
+      "event_id": "CATALYST-20260523-052",
+      "title": "美国再次升级对华半导体出口管制 商务部：坚决反对技术霸凌",
+      "summary": "【事实】美国商务部通知IC设备制造商停止向中国芯片制造商华虹集团出口设备，这是美方再次泛化国家安全概念、滥用出口管制措施的最新动作。中国商务部对此表示坚决反对，指出美方行为严重破坏国际贸易规则，损害全球半导体产业链供应链稳定。【影响】美方的单边制裁措施将进一步扰乱全球半导体市场秩序，但同时也将加速中国芯片产业的自主创新进程。中国拥有全球最大的半导体消费市场和完整的产业配套能力，长期来看中国芯片产业将继续发展壮大。【限制】华虹集团主要聚焦成熟制程芯片制造，对先进制程设备依赖度较低。中国半导体设备和材料企业的国产替代正在稳步推进。",
+      "direction": "positive",
+      "importance": 4,
+      "external_theme": "SEMICONDUCTOR",
+      "event_type": "geopolitical",
+      "source": "Reuters/中国商务部",
+      "source_url": "https://www.reuters.com/world/china/us-orders-chip-equipment-companies-halt-some-shipments-hua-hong-chinas-second-2026-04-28/",
+      "event_time_utc8": "2026-04-27T16:00:00.000Z",
+      "usable_trade_date": "2026-04-27T16:00:00.000Z",
+      "mentioned_tickers": "AMAT,LRCX,KLAC,TSM"
+    }
+  ]
+}

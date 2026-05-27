@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "date": "2026-05-07",
+  "count": 1,
+  "summary": {
+    "total": 1,
+    "by_direction": {
+      "positive": 1
+    },
+    "by_theme": {
+      "ROBOTICS": 1
+    },
+    "high_impact": 1
+  },
+  "data": [
+    {
+      "event_id": "CATALYST-20260523-065",
+      "title": "人形机器人触觉和语音技术快速进步 通用机器人走向家庭",
+      "summary": "【事实】SemiEngineering发表深度报告，指出人形机器人正从工厂和物流场景快速向通用任务（包括家庭辅助）扩展。触觉（触觉传感）和语音/听觉在真实环境中成为最关键且最具商业价值的传感挑战。【影响】人形机器人的感知能力提升使其从单一功能向通用场景过渡成为可能，利好传感器、边缘AI芯片和机器人整机厂商（Tesla Optimus、Figure AI等）。AI大模型与机器人结合加速具身智能发展。【限制】完全通用的人形机器人仍需5-10年时间，触觉和语音的商业化仍面临成本、功耗和隐私挑战。目前人形机器人量产规模有限。",
+      "direction": "positive",
+      "importance": 3,
+      "external_theme": "ROBOTICS",
+      "event_type": "product",
+      "source": "SemiEngineering",
+      "source_url": "https://semiengineering.com/humanoid-touch-and-voice-are-improving-rapidly/",
+      "event_time_utc8": "2026-05-06T16:00:00.000Z",
+      "usable_trade_date": "2026-05-06T16:00:00.000Z",
+      "mentioned_tickers": "TSLA"
+    }
+  ]
+}

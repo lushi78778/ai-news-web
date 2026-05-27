@@ -1,0 +1,93 @@
+{
+  "success": true,
+  "date": "2026-04-21",
+  "count": 5,
+  "summary": {
+    "total": 5,
+    "by_direction": {
+      "positive": 3,
+      "negative": 1,
+      "neutral": 1
+    },
+    "by_theme": {
+      "DATA_CENTER": 1,
+      "GOLD": 1,
+      "SEMICONDUCTOR": 1,
+      "LITHIUM": 1,
+      "OIL_GAS": 1
+    },
+    "high_impact": 5
+  },
+  "data": [
+    {
+      "event_id": "CATALYST-2026-04-21-004",
+      "title": "谷歌宣布2026年AI基础设施资本开支翻倍至750亿美元 加速数据中心建设",
+      "summary": "【事实】谷歌母公司Alphabet在4月21日投资者日宣布，2026年AI基础设施资本开支将翻倍至750亿美元，主要用于建设新的AI数据中心和TPU集群。谷歌同时发布了自研TPU v7芯片细节，称其训练性能较v6提升3倍，推理能效提升2.5倍。公司计划在全球新建12个AI数据中心。【影响】谷歌大幅上调资本开支进一步确认AI基础设施军备竞赛升级，算力需求持续爆发利好服务器、光模块、PCB、液冷等产业链环节。自研TPU加速将推动AI芯片竞争格局演变，但短期对英伟达GPU需求未形成替代。【限制】天量资本开支存在回报不确定性，投资者对AI投入产出比的关注度上升。谷歌股价在公告后先涨后跌，反映市场对资本开支效率的分歧。数据中心建设受电力供应和审批周期制约。",
+      "direction": "positive",
+      "importance": 4,
+      "external_theme": "DATA_CENTER",
+      "event_type": "capex",
+      "source": "CNBC",
+      "source_url": "https://www.cnbc.com/technology/",
+      "event_time_utc8": "2026-04-21T08:00:00.000Z",
+      "usable_trade_date": "2026-04-20T16:00:00.000Z",
+      "mentioned_tickers": "GOOGL,GOOG,AAPL,MSFT,NVDA,300502.SZ,002913.SZ,688498.SH"
+    },
+    {
+      "event_id": "CATALYST-2026-04-21-003",
+      "title": "全球央行一季度黄金储备增持创历史同期新高 中国央行领跑",
+      "summary": "【事实】世界黄金协会（WGC）4月21日发布报告显示，2026年一季度全球央行净购金量达320吨，创历史同期最高纪录。其中中国央行增持89吨，连续第18个月增持；波兰、印度、土耳其等央行也持续大规模购金。报告指出，地缘政治冲突加剧和美元信用体系担忧是购金主要驱动因素。【影响】央行持续大规模购金为金价提供坚实底部支撑，黄金长期配置价值获机构共识。中国央行增持黄金储备体现多元化外汇储备管理的长期战略。全球央行购金预期仍将持续，利好黄金矿产企业和黄金ETF。【限制】央行购金节奏可能放缓。金价高企可能抑制部分新兴市场央行的购金力度。COMEX黄金期货持仓已处历史高位，需关注回调风险。",
+      "direction": "positive",
+      "importance": 4,
+      "external_theme": "GOLD",
+      "event_type": "demand",
+      "source": "Reuters",
+      "source_url": "https://www.reuters.com/markets/commodities/gold/",
+      "event_time_utc8": "2026-04-21T06:30:00.000Z",
+      "usable_trade_date": "2026-04-20T16:00:00.000Z",
+      "mentioned_tickers": "GOLD,600489.SH,600547.SH,002155.SZ,600988.SH"
+    },
+    {
+      "event_id": "CATALYST-2026-04-21-001",
+      "title": "美国拟进一步扩大对华AI芯片出口管制范围 新增HBM内存管控",
+      "summary": "【事实】4月21日，据外媒报道，美国政府正酝酿新一轮对华半导体出口管制，拟将AI芯片的算力阈值从当前限制进一步降低，并首次将HBM（高带宽内存）纳入出口管制清单。新规还将扩大\"外国直接产品规则\"适用范围，限制中国芯片设计公司使用美国EDA软件。【影响】若HBM被纳入管制将直接冲击中国AI算力基础设施建设，国产HBM替代需求迫切。国内存储芯片厂商（长鑫存储、长江存储）面临设备获取风险，但HBM国产化进程有望加速。AI芯片设计公司（寒武纪、海光信息）的先进制程代工渠道进一步收紧。【限制】上述提案仍处讨论阶段，需经多部门审批。中国可能采取反制措施，如限制关键半导体材料出口。美国半导体行业协会（SIA）可能对扩大管制范围表达关切。",
+      "direction": "negative",
+      "importance": 4,
+      "external_theme": "SEMICONDUCTOR",
+      "event_type": "policy",
+      "source": "财联社",
+      "source_url": "https://www.cls.cn/telegraph",
+      "event_time_utc8": "2026-04-21T00:00:00.000Z",
+      "usable_trade_date": "2026-04-20T16:00:00.000Z",
+      "mentioned_tickers": "NVDA,AMD,SMH,600703.SH,002049.SZ,688256.SH,300661.SZ"
+    },
+    {
+      "event_id": "CATALYST-2026-04-21-005",
+      "title": "智利SQM宣布Atacama盐湖2026年碳酸锂配额减少15% 供给趋紧信号",
+      "summary": "【事实】智利锂矿巨头SQM 4月21日公告，根据智利Corfo矿业监管机构最新批复，2026年Atacama盐湖碳酸锂生产配额将减少15%，以推进环保合规和盐湖生态恢复计划。SQM预计2026年碳酸锂产量约16万吨，低于市场预期的18万吨。同时Albemarle在智利的配额谈判也在进行中。【影响】南美盐湖锂供给收缩信号明确，全球锂资源供给缺口预期扩大。这与中国以外锂矿项目投产推迟形成共振（澳矿Liontown、Core Lithium停产），有望推动锂价中期上行。【限制】SQM减少的配额可能通过其他在产项目或新矿投产来弥补。中国盐湖提锂技术突破正在释放青藏高原盐湖资源新增量。锂价反弹高度取决于全球新能源汽车及储能需求的恢复节奏。",
+      "direction": "positive",
+      "importance": 3,
+      "external_theme": "LITHIUM",
+      "event_type": "supply",
+      "source": "MINING.COM",
+      "source_url": "https://www.mining.com/category/lithium/",
+      "event_time_utc8": "2026-04-21T09:00:00.000Z",
+      "usable_trade_date": "2026-04-20T16:00:00.000Z",
+      "mentioned_tickers": "SQM,ALB,002460.SZ,002466.SZ,000792.SZ"
+    },
+    {
+      "event_id": "CATALYST-2026-04-21-002",
+      "title": "沙特阿美下调6月面向亚洲原油官方售价 反映对需求前景审慎",
+      "summary": "【事实】沙特阿美4月21日宣布将6月面向亚洲客户的阿拉伯轻质原油官方售价（OSP）下调0.30美元/桶，至阿曼/迪拜均价升水1.50美元/桶。此次调价幅度超出市场预期，反映沙特对亚洲炼厂需求复苏节奏持审慎态度。【影响】沙特下调OSP可能引发其他OPEC产油国跟随降价，短期给油价带来一定压力，但降价有助于提升亚洲炼厂采购意愿。中国炼油企业进口成本有望小幅下降，改善炼化环节利润。【限制】沙特OSP调整更多反映短期供需博弈，不改变中长期油价走势。亚洲主要经济体经济增长预期变化将主导实际需求。",
+      "direction": "neutral",
+      "importance": 3,
+      "external_theme": "OIL_GAS",
+      "event_type": "supply",
+      "source": "OilPrice (Bloomberg)",
+      "source_url": "https://www.bloomberg.com/energy",
+      "event_time_utc8": "2026-04-21T02:00:00.000Z",
+      "usable_trade_date": "2026-04-20T16:00:00.000Z",
+      "mentioned_tickers": "XOM,SHEL,TTE,600028.SH,601857.SH"
+    }
+  ]
+}

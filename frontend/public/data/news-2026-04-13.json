@@ -1,0 +1,106 @@
+{
+  "success": true,
+  "date": "2026-04-13",
+  "count": 6,
+  "summary": {
+    "total": 6,
+    "by_direction": {
+      "positive": 5,
+      "negative": 1
+    },
+    "by_theme": {
+      "SEMICONDUCTOR": 2,
+      "OIL_GAS": 1,
+      "COPPER": 1,
+      "ROBOTICS": 1,
+      "GOLD": 1
+    },
+    "high_impact": 6
+  },
+  "data": [
+    {
+      "event_id": "CATALYST-2026-04-13-004",
+      "title": "2026年Q1芯片创业公司融资报告：80家初创公司共融资84亿美元 AI和EDA最活跃",
+      "summary": "【事实】SemiEngineering发布2026年Q1芯片行业创业融资报告显示，80家半导体初创公司共融资超84亿美元。AI芯片设计、EDA工具和半导体制造是获得融资最多的领域，资本持续涌入半导体创新赛道。【影响】创投热情高涨反映半导体行业创新活跃度处于历史高位，对处于早期研发阶段的AI芯片、新型存储器、光子计算等前沿方向构成实质利好。EDA领域的融资增加表明芯片设计自动化工具的需求爆发。【限制】创投市场对半导体投资的热度能否持续受宏观经济环境影响。部分初创公司估值偏高，存在后续融资风险。",
+      "direction": "positive",
+      "importance": 4,
+      "external_theme": "SEMICONDUCTOR",
+      "event_type": "investment",
+      "source": "SemiEngineering",
+      "source_url": "https://semiengineering.com/startup-funding-q1-2026/",
+      "event_time_utc8": "2026-04-13T06:00:00.000Z",
+      "usable_trade_date": "2026-04-12T16:00:00.000Z",
+      "mentioned_tickers": "NVDA,AVGO,CDNS,SNPS"
+    },
+    {
+      "event_id": "CATALYST-2026-04-13-003",
+      "title": "日本政府批准为Rapidus追加39亿美元 加速2nm芯片量产 2027年目标不变",
+      "summary": "【事实】日本政府批准为Rapidus追加39亿美元资金，用于2nm先进逻辑制造和chiplet封装技术开发。Rapidus同时在其北海道基地开设分析中心和chiplet解决方案设施，力争在2027年实现2nm量产。【影响】日本国家力量大规模投入2nm制程竞争，体现半导体制造高端化战略决心。利好日本半导体设备材料产业链。Rapidus 2027年量产目标若实现，将打破台积电和三星在先进制程领域的双头垄断。【限制】2nm量产难度极高，Rapidus作为新兴代工厂缺乏量产经验和技术积累。2027年时间表面临技术和良率挑战。追加投资总额仍远小于台积电和三星的年度资本支出。",
+      "direction": "positive",
+      "importance": 4,
+      "external_theme": "SEMICONDUCTOR",
+      "event_type": "capacity",
+      "source": "Rapidus, METI, SemiEngineering",
+      "source_url": "https://www.rapidus.inc/en/news_topics/information/nedo-approves-rapidus-fy2026-plan-and-budget-for-2nm-semiconductor-projects/",
+      "event_time_utc8": "2026-04-13T03:00:00.000Z",
+      "usable_trade_date": "2026-04-12T16:00:00.000Z",
+      "mentioned_tickers": "TSM,SMSN,INTC"
+    },
+    {
+      "event_id": "CATALYST-2026-04-13-001",
+      "title": "俄罗斯宣布氦气出口需特殊审批 全球第三大氦气生产国收紧出口管控",
+      "summary": "【事实】据Reuters报道，俄罗斯宣布对氦气出口实施临时管控，出口需获得特殊审批。俄罗斯是全球第三大氦气生产国。此前卡塔尔氦气已因中东冲突供应受阻，此次俄罗斯收紧氦气出口进一步加剧全球氦气供应紧张局势。【影响】氦气供应双重挤压（卡塔尔+俄罗斯）加剧全球半导体制造气体危机，fab端氦气采购成本将大幅上升。利好氦气回收设备企业和替代气体方案。中国氦气进口多元化需求更加迫切。【限制】俄罗斯氦气出口管控为临时性措施，持续时间不确定。美国(全球最大氦气生产国)可增加产量缓解缺口。fab端氦气回收率提升可降低对外依赖。",
+      "direction": "negative",
+      "importance": 4,
+      "external_theme": "OIL_GAS",
+      "event_type": "supply",
+      "source": "Reuters, SemiEngineering",
+      "source_url": "https://www.reuters.com/business/energy/russia-imposes-temporary-export-controls-helium-2026-04-14/",
+      "event_time_utc8": "2026-04-13T00:00:00.000Z",
+      "usable_trade_date": "2026-04-12T16:00:00.000Z",
+      "mentioned_tickers": "TSM,SMSN,LRCX"
+    },
+    {
+      "event_id": "CATALYST-2026-04-13-006",
+      "title": "空气产品公司投资2亿欧元在日本新建工业气体生产设施 服务半导体客户",
+      "summary": "【事实】Air Liquide宣布投资2亿欧元在日本广岛新建两套工业气体生产设施，服务领先半导体制造商的扩产需求。此次投资反映了半导体制造对高纯度特种气体日益增长的需求。【影响】Air Liquide在日投资表明全球半导体气体供应链持续扩张，半导体制造对大宗气体（氮气、氧气、氩气）和特种气体的需求强劲。气体基础设施投资是半导体产能扩张的前置条件，间接反映行业扩产意愿强烈。【限制】气体供应为配套性投资，取决于下游fab实际投产节奏。Air Liquide投资规模相对于其整体业务体量有限。",
+      "direction": "positive",
+      "importance": 3,
+      "external_theme": "COPPER",
+      "event_type": "demand",
+      "source": "Air Liquide, SemiEngineering",
+      "source_url": "https://www.airliquide.com/group/press-releases-news/2026-04-16/air-liquide-invests-200-million-euros-japan-support-leading-semiconductor-manufacturer-production",
+      "event_time_utc8": "2026-04-13T08:00:00.000Z",
+      "usable_trade_date": "2026-04-12T16:00:00.000Z",
+      "mentioned_tickers": "TSM,SMSN,AIR"
+    },
+    {
+      "event_id": "CATALYST-2026-04-13-005",
+      "title": "Gartner预测2030年发达市场新建仓库中将有一半实现\"可无人化\" 机器人部署加速",
+      "summary": "【事实】Gartner预测，到2030年发达市场新建仓库中将有50%是\"可无人化\"设施，即从设计之初就充分配置自动化机器人系统，在不需要人类的条件下运营。这一预测反映机器人在仓储物流领域部署的加速趋势。【影响】仓储物流机器人市场将进入爆发期，利好机器人整机厂商、AGV/AMR供应商和仓储自动化集成商。可无人化仓库设计标准化有助于降低机器人部署成本，扩大可及市场。【限制】2030年为预测时间点，实际部署进度取决于劳动力政策、技术成熟度和投资回报周期。仓储场景机器人全自动化在非结构化任务处理上仍有挑战。",
+      "direction": "positive",
+      "importance": 3,
+      "external_theme": "ROBOTICS",
+      "event_type": "research",
+      "source": "Gartner, SemiEngineering",
+      "source_url": "https://www.gartner.com/en/newsroom/2026-04-13-gartner-predicts-half-of-new-warehouses-built-in-developed-markets-will-be-human-optional-facilities-by-2030",
+      "event_time_utc8": "2026-04-13T07:00:00.000Z",
+      "usable_trade_date": "2026-04-12T16:00:00.000Z",
+      "mentioned_tickers": "AMZN,300124.SZ,688017.SH"
+    },
+    {
+      "event_id": "CATALYST-2026-04-13-002",
+      "title": "地缘政治叠加通胀预期 黄金配置价值凸显 金价维持高位震荡",
+      "summary": "【事实】国际金价在中东地缘政治紧张和全球通胀预期双重支撑下维持高位震荡。市场对美联储降息路径的预期变化和美元指数走势共同影响金价短期波动。各国央行增持黄金的趋势延续。【影响】多种利好因素叠加支撑金价：地缘避险需求+央行购金+去美元化+通胀对冲。黄金板块具备中长期配置价值，尤其利好有产量增长和成本控制的黄金企业。【限制】若美联储因通胀压力推迟降息，强势美元可能压制金价。金价已处历史高位区间，继续大幅上行需新的催化剂。",
+      "direction": "positive",
+      "importance": 3,
+      "external_theme": "GOLD",
+      "event_type": "price",
+      "source": "世界黄金协会, Bloomberg",
+      "source_url": "https://www.gold.org/",
+      "event_time_utc8": "2026-04-13T02:00:00.000Z",
+      "usable_trade_date": "2026-04-12T16:00:00.000Z",
+      "mentioned_tickers": "600489.SH,601899.SH,600547.SH"
+    }
+  ]
+}
