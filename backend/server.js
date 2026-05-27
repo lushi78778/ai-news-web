@@ -126,17 +126,19 @@ app.get('/api/health', (req, res) => {
 
 // Serve static frontend files
 const staticPath = path.resolve(STATIC_DIR);
-app.use('/news/assets', express.static(path.join(staticPath, 'assets'), {
+app.use(['/news/assets', '/stock-news-web/assets'], express.static(path.join(staticPath, 'assets'), {
   setHeaders: (res) => {
     res.setHeader('Cache-Control', 'public, immutable, max-age=31536000');
   }
 }));
 
-// Serve SPA at root and /news
+// Serve SPA at root and GitHub Pages base paths
 const serveNews = (req, res) => res.sendFile(path.join(staticPath, 'index.html'));
 app.get('/', serveNews);
 app.get('/news', serveNews);
 app.get('/news/*', serveNews);
+app.get('/stock-news-web', serveNews);
+app.get('/stock-news-web/*', serveNews);
 
 // Catch-all: for non-API routes, serve the SPA
 app.get('*', (req, res) => {
