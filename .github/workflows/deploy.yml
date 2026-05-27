@@ -1,27 +1,9 @@
-# 部署到 GitHub Pages
-#
-# 两种触发方式：
-#   1. push 到 main — 自动构建 + 部署
-#   2. 定时触发（可选）— 通过 cron 更新数据
-#
-# MySQL 连接（导出数据用）：
-#   在 repo Settings → Secrets and variables → Actions 添加：
-#   - DB_HOST (如 1.2.3.4)
-#   - DB_PORT (如 10086)
-#   - DB_USER (如 stock_app)
-#   - DB_PASSWORD
-#   - DB_NAME (如 stock)
-#
-#   如果 MySQL 不公开暴露，去掉 export-data 步骤，数据由 VPS 脚本推送。
-
 name: Deploy to GitHub Pages
 
 on:
   push:
     branches: [main]
-  workflow_dispatch:       # 手动触发
-  # schedule:              # 可选：定时更新数据
-  #   - cron: '0 */6 * * *'
+  workflow_dispatch:
 
 permissions:
   contents: read
@@ -33,7 +15,7 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  build:
+  deploy:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -43,40 +25,14 @@ jobs:
         with:
           node-version: 20
 
-      # ---- 导出数据库数据（可选，需要 MySQL 可访问）----
-      - name: Export data from MySQL
-        if: ${{ secrets.DB_PASSWORD != '' }}
-        run: |
-          cd scripts
-          npm install mysql2
-          DB_HOST="${{ secrets.DB_HOST || '127.0.0.1' }}" \
-          DB_PORT="${{ secrets.DB_PORT || '10086' }}" \
-          DB_USER="${{ secrets.DB_USER || 'root' }}" \
-          DB_PASSWORD="${{ secrets.DB_PASSWORD }}" \
-          DB_NAME="${{ secrets.DB_NAME || 'stock' }}" \
-          node export-data.mjs
-        shell: bash
-
-      # ---- 构建前端（静态模式，从 data/ 读取）----
-      - name: Build frontend (static mode)
+      - name: Build frontend
         run: |
           cd frontend
           npm ci
           VITE_DATA_MODE=static npm run build
 
-      # ---- 上传 Pages artifact ----
-      - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v3
+      - uses: actions/upload-pages-artifact@v3
         with:
           path: frontend/dist
 
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+      - uses: actions/deploy-pages@v4
