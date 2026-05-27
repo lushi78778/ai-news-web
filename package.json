@@ -1,0 +1,16 @@
+{
+  "name": "ai-news-web",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "npm --prefix frontend ci && npm --prefix frontend run build",
+    "dev": "vercel dev",
+    "preview": "vercel dev"
+  },
+  "dependencies": {
+    "mysql2": "^3.15.3"
+  },
+  "devDependencies": {
+    "vercel": "^54.5.0"
+  }
+}
