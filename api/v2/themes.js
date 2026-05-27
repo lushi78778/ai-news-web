@@ -1,7 +1,7 @@
-const { getPool, sendJson, methodAllowed } = require('../_db');
+const { getPool, sendJson, prepareRequest } = require('../_db');
 
 module.exports = async function handler(req, res) {
-  if (!methodAllowed(req, res)) return;
+  if (!prepareRequest(req, res)) return;
 
   try {
     const pool = getPool();

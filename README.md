@@ -96,6 +96,22 @@ Vercel 构建设置保持默认即可，项目里已经有 `vercel.json`：
 
 ## API
 
+API 默认公开，可被任意站点调用。
+
+响应头包含：
+
+```text
+Access-Control-Allow-Origin: *
+RateLimit-Limit: 60
+RateLimit-Policy: 60;w=60
+```
+
+限流策略：
+
+```text
+每个 IP 60 秒内最多 60 次请求，滑动窗口统计。
+```
+
 | Route | Description |
 | --- | --- |
 | `GET /api/health` | 健康检查 |
