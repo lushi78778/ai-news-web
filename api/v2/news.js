@@ -1,5 +1,28 @@
 const { getPool, sendJson, prepareRequest } = require('../_db');
 
+// mysql2 returns Date objects for DATETIME columns;
+// JSON.stringify converts them to ISO strings with .000Z (UTC).
+// Since we store Beijing time (UTC+8), explicitly format without TZ suffix.
+function fmtDatetime(v) {
+  if (!v || !(v instanceof Date)) return v;
+  const pad = (n) => String(n).padStart(2, '0');
+  return `${v.getFullYear()}-${pad(v.getMonth()+1)}-${pad(v.getDate())} ${pad(v.getHours())}:${pad(v.getMinutes())}:${pad(v.getSeconds())}`;
+}
+
+function fmtDate(v) {
+  if (!v || !(v instanceof Date)) return v;
+  const pad = (n) => String(n).padStart(2, '0');
+  return `${v.getFullYear()}-${pad(v.getMonth()+1)}-${pad(v.getDate())}`;
+}
+
+function formatRow(r) {
+  return {
+    ...r,
+    event_time_utc8: fmtDatetime(r.event_time_utc8),
+    usable_trade_date: fmtDate(r.usable_trade_date),
+  };
+}
+
 function summarize(rows) {
   const summary = {
     total: rows.length,
@@ -63,7 +86,7 @@ module.exports = async function handler(req, res) {
       date: date || null,
       count: rows.length,
       summary: summarize(rows),
-      data: rows,
+      data: rows.map(formatRow),
     });
   } catch (err) {
     console.error('news api error:', err);
