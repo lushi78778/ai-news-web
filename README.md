@@ -217,26 +217,3 @@ curl 'https://news.xray.top/api/v2/news?date=2026-05-27'
 | `summary` | 统计摘要 |
 | `data` | 新闻事件列表 |
 
-## Release 流程
-
-创建版本 tag：
-
-```bash
-git tag -a v2.0 -m "v2.0"
-git push origin v2.0
-```
-
-推送 `v*` tag 后会触发构建校验 workflow。
-
-创建 GitHub Release：
-
-```bash
-gh release create v2.0 --title "v2.0 - First stable release" --notes-file RELEASE_NOTES.md
-```
-
-## 维护备注
-
-- `.env` 只用于本地环境，不提交真实私密值
-- `frontend/public/data/` 保留了静态样例数据，可用于前端兜底或离线查看
-- API 错误响应会返回 JSON，前端应显示可读错误状态
-- 涉及公开接口变更时，优先保持字段兼容
