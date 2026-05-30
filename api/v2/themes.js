@@ -11,17 +11,25 @@ module.exports = async function handler(req, res) {
 
   try {
     const pool = getPool();
-    const [dates] = await pool.query(
-      `SELECT DATE(event_time_utc8) AS day, COUNT(*) cnt
+    const [dateRows] = await pool.query(
+      `SELECT event_time_utc8
        FROM external_catalyst_event
        WHERE usable_for_signal = 1 AND event_time_utc8 IS NOT NULL
-       GROUP BY DATE(event_time_utc8)
-       ORDER BY day DESC
-       LIMIT 60`
+       ORDER BY event_time_utc8 DESC
+       LIMIT 5000`
     );
     const [themes] = await pool.query(
       `SELECT code, label FROM external_news_theme ORDER BY code`
     );
+
+    const dateCounts = new Map();
+    for (const row of dateRows) {
+      const day = fmtDate(row.event_time_utc8);
+      dateCounts.set(day, (dateCounts.get(day) || 0) + 1);
+      if (dateCounts.size >= 60) break;
+    }
+    const dates = Array.from(dateCounts, ([day, cnt]) => ({ day, cnt }));
+
     sendJson(res, 200, { success: true, dates: dates.map(d => ({ ...d, day: fmtDate(d.day) })), themes });
   } catch (err) {
     console.error('themes api error:', err);
