@@ -64,8 +64,8 @@ module.exports = async function handler(req, res) {
     let limit = 'LIMIT 50';
 
     if (date) {
-      where += ' AND DATE(event_time_utc8) = ?';
-      params.push(date);
+      where += ' AND event_time_utc8 >= ? AND event_time_utc8 < DATE_ADD(?, INTERVAL 1 DAY)';
+      params.push(date, date);
       order = 'importance DESC, event_time_utc8 DESC';
       limit = '';
     }
